@@ -1,3 +1,7 @@
+\set ON_ERROR_STOP on
+
+BEGIN;
+
 DROP TABLE IF EXISTS items;
 DROP TYPE IF EXISTS item_status;
 
