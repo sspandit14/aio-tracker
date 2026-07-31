@@ -1,0 +1,67 @@
+---
+const renderedAt = new Date().toISOString();
+
+const sampleItems = [
+    {
+        name: "Lies of P",
+        type: "game",
+        status: "completed",
+        progress: 100,
+        rating: 8.0,
+    },
+    {
+        name: "The Invisible Life of Addie La Rue",
+        type: "book",
+        status: "ongoing",
+        progress: 10,
+        rating: 6.0,
+    },
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>aio tracker</title>
+    </head>
+    <body>
+        <header>
+            <h1>aio-tracker prototype</h1>
+            <p>testing the rendering of media tracking data</p>
+        </header>
+
+        <main>
+            <table>
+                <caption>Media List</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Progress</th>
+                        <th scope="col">Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {sampleItems.map((item) => (
+                        <tr>
+                            <td>{item.name}</td>
+                            <td>{item.type}</td>
+                            <td>{item.status}</td>
+                            <td>{item.progress}</td>
+                            <td>{item.rating}</td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <p>
+                Rendered at <time datetime={renderedAt}>{renderedAt}</time>
+            </p>
+        </footer>
+    </body>
+</html>
