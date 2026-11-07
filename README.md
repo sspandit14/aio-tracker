@@ -4,3 +4,4 @@ A site that aims to collate and track media consumption and thoughts across diff
 ### To-Dos
 - [] implement responsive design
 - [] add socials or something to the footer
+- [] add limit to number of ongoing media in `sampleMediaSelector` (slice ongoingMedia array)

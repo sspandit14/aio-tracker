@@ -5,4 +5,4 @@ export const ongoingMedia = sampleMedia.filter(media => media.status === "in_pro
 export const recentMedia = [...sampleMedia]
                             .filter(media => media.updatedOn !== null)
                             .sort((a,b) => b.updatedOn.localeCompare(a.updatedOn))
-                            .slice(0,5)
+                            .slice(0,10)

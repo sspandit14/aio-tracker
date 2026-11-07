@@ -4,6 +4,7 @@ import discoElysiumCover from "../assets/mediaCovers/disco-elysium.jpg"
 import invisibleLifeCover from "../assets/mediaCovers/invisible-life-of-addie-la-rue.jpg"
 import silentHill2Cover from "../assets/mediaCovers/silent-hill-2-remake.jpg"
 import residentEvilMovieCover from "../assets/mediaCovers/resident-evil-movie.jpg"
+import mansSearchForMeaningCover from "../assets/mediaCovers/mans-search-for-meaning.jpg"
 
 export const sampleMedia = [
     {
@@ -113,5 +114,22 @@ export const sampleMedia = [
             title: "But What *Is* Resident Evil, Really?",
             url: "https://www.google.com/search?q=But+What+*Is*+Resident+Evil%2C+Really%3F"
         }
+    },
+    {
+        id: "mans-search-for-meaning",
+        title: "Man's Search for Meaning",
+        type: "book",
+        year: 1946,
+        cover: mansSearchForMeaningCover,
+
+        status: "in_progress",
+        rating: null,
+        createdOn: "2026-11-07",
+        lastLoggedOn: "2026-11-07",
+        updatedOn: "2026-11-07",
+        review: null,
+        pinned: false,
+
+        relatedWork: null
     },
 ]
