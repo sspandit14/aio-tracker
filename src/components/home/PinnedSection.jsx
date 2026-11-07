@@ -18,34 +18,33 @@ export default function PinnedSection({items}) {
 
     return(
         <div className="pinned-section">
-            <h2>Pinned</h2>
-            <div className="pinned-carousel">
-                <div className="pinned-carousel-view">
-                    <div className="pinned-carousel-track" style= {{transform: `translateX(-${displayIdx*100}%)`}}>
-                        {items.map(media => (
-                            <div className="pinned-carousel-slide" key={media.id}>
-                                <PinnedCard media={media} />
-                            </div>
-                        ))}
+            <div className="pinned-section-content">
+                <h2>Pinned</h2>
+                <div className="pinned-carousel">
+                    <div className="pinned-carousel-view">
+                        <div className="pinned-carousel-track" style= {{transform: `translateX(-${displayIdx*100}%)`}}>
+                            {items.map(media => (
+                                <div className="pinned-carousel-slide" key={media.id}>
+                                    <PinnedCard media={media} />
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
+                {items.length > 1 && (
+                    <div className="pinned-carousel-buttons">
+                        <button type="button" onClick={previousCard}>
+                            Previous
+                        </button>
+                        <span>
+                            {displayIdx + 1} / {items.length}
+                        </span>
+                        <button type="button" onClick={nextCard}>
+                            Next
+                        </button>
+                    </div>
+                )}
             </div>
-
-            {items.length > 1 && (
-                <div className="pinned-carousel-buttons">
-                    <button type="button" onClick={previousCard}>
-                        Previous
-                    </button>
-
-                    <span>
-                        {displayIdx + 1} / {items.length}
-                    </span>
-
-                    <button type="button" onClick={nextCard}>
-                        Next
-                    </button>
-                </div>
-            )}
         </div>
     )
 }

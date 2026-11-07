@@ -10,7 +10,7 @@ export default function RecentSection({items}) {
                         <tr>
                             <th scope="col">Name</th>
                             <th scope="col">Status</th>
-                            <th scope="col">Last Updated</th>
+                            <th scope="col">Last Logged</th>
                             <th scope="col">Rating</th>
                         </tr>
                     </thead>
