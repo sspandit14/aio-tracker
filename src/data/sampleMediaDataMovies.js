@@ -153,7 +153,7 @@ export const sampleMedia = [
     {
         id: "500-days-of-summer",
         title: "(500) Days of Summer",
-        type: "movie",
+        type: "Movie",
         year: 2009,
         cover: fiveHundredDaysOfSummerCover,
         status: "finished",
@@ -168,7 +168,7 @@ export const sampleMedia = [
     {
         id: "5-centimeters-per-second",
         title: "5 Centimeters per Second",
-        type: "movie",
+        type: "Movie",
         year: 2007,
         cover: fiveCentimetersPerSecondCover,
         status: "finished",
@@ -183,7 +183,7 @@ export const sampleMedia = [
     {
         id: "a-silent-voice-the-movie",
         title: "A Silent Voice: The Movie",
-        type: "movie",
+        type: "Movie",
         year: 2016,
         cover: aSilentVoiceTheMovieCover,
         status: "finished",
@@ -198,7 +198,7 @@ export const sampleMedia = [
     {
         id: "akira",
         title: "Akira",
-        type: "movie",
+        type: "Movie",
         year: 1988,
         cover: akiraCover,
         status: "finished",
@@ -213,7 +213,7 @@ export const sampleMedia = [
     {
         id: "andhadhun",
         title: "Andhadhun",
-        type: "movie",
+        type: "Movie",
         year: 2018,
         cover: andhadhunCover,
         status: "finished",
@@ -228,7 +228,7 @@ export const sampleMedia = [
     {
         id: "ant-man",
         title: "Ant-Man",
-        type: "movie",
+        type: "Movie",
         year: 2015,
         cover: antManCover,
         status: "finished",
@@ -243,7 +243,7 @@ export const sampleMedia = [
     {
         id: "ant-man-and-the-wasp",
         title: "Ant-Man and the Wasp",
-        type: "movie",
+        type: "Movie",
         year: 2018,
         cover: antManAndTheWaspCover,
         status: "finished",
@@ -258,7 +258,7 @@ export const sampleMedia = [
     {
         id: "atonement",
         title: "Atonement",
-        type: "movie",
+        type: "Movie",
         year: 2007,
         cover: atonementCover,
         status: "finished",
@@ -273,7 +273,7 @@ export const sampleMedia = [
     {
         id: "avengers-age-of-ultron",
         title: "Avengers: Age of Ultron",
-        type: "movie",
+        type: "Movie",
         year: 2015,
         cover: avengersAgeOfUltronCover,
         status: "finished",
@@ -288,7 +288,7 @@ export const sampleMedia = [
     {
         id: "avengers-endgame",
         title: "Avengers: Endgame",
-        type: "movie",
+        type: "Movie",
         year: 2019,
         cover: avengersEndgameCover,
         status: "finished",
@@ -303,7 +303,7 @@ export const sampleMedia = [
     {
         id: "avengers-infinity-war",
         title: "Avengers: Infinity War",
-        type: "movie",
+        type: "Movie",
         year: 2018,
         cover: avengersInfinityWarCover,
         status: "finished",
@@ -318,7 +318,7 @@ export const sampleMedia = [
     {
         id: "barbarian",
         title: "Barbarian",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: barbarianCover,
         status: "finished",
@@ -333,7 +333,7 @@ export const sampleMedia = [
     {
         id: "batman-begins",
         title: "Batman Begins",
-        type: "movie",
+        type: "Movie",
         year: 2005,
         cover: batmanBeginsCover,
         status: "finished",
@@ -348,7 +348,7 @@ export const sampleMedia = [
     {
         id: "belladonna-of-sadness",
         title: "Belladonna of Sadness",
-        type: "movie",
+        type: "Movie",
         year: 1973,
         cover: belladonnaOfSadnessCover,
         status: "finished",
@@ -363,7 +363,7 @@ export const sampleMedia = [
     {
         id: "black-panther",
         title: "Black Panther",
-        type: "movie",
+        type: "Movie",
         year: 2018,
         cover: blackPantherCover,
         status: "finished",
@@ -378,7 +378,7 @@ export const sampleMedia = [
     {
         id: "black-panther-wakanda-forever",
         title: "Black Panther: Wakanda Forever",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: blackPantherWakandaForeverCover,
         status: "finished",
@@ -393,7 +393,7 @@ export const sampleMedia = [
     {
         id: "blue-velvet",
         title: "Blue Velvet",
-        type: "movie",
+        type: "Movie",
         year: 1986,
         cover: blueVelvetCover,
         status: "finished",
@@ -408,7 +408,7 @@ export const sampleMedia = [
     {
         id: "bram-stokers-dracula",
         title: "Bram Stoker's Dracula",
-        type: "movie",
+        type: "Movie",
         year: 1992,
         cover: bramStokersDraculaCover,
         status: "finished",
@@ -423,7 +423,7 @@ export const sampleMedia = [
     {
         id: "buddy",
         title: "Buddy",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: buddyCover,
         status: "finished",
@@ -438,7 +438,7 @@ export const sampleMedia = [
     {
         id: "bullet-train",
         title: "Bullet Train",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: bulletTrainCover,
         status: "finished",
@@ -453,7 +453,7 @@ export const sampleMedia = [
     {
         id: "captain-america-civil-war",
         title: "Captain America: Civil War",
-        type: "movie",
+        type: "Movie",
         year: 2016,
         cover: captainAmericaCivilWarCover,
         status: "finished",
@@ -468,7 +468,7 @@ export const sampleMedia = [
     {
         id: "captain-america-the-first-avenger",
         title: "Captain America: The First Avenger",
-        type: "movie",
+        type: "Movie",
         year: 2011,
         cover: captainAmericaTheFirstAvengerCover,
         status: "finished",
@@ -483,7 +483,7 @@ export const sampleMedia = [
     {
         id: "captain-america-the-winter-soldier",
         title: "Captain America: The Winter Soldier",
-        type: "movie",
+        type: "Movie",
         year: 2014,
         cover: captainAmericaTheWinterSoldierCover,
         status: "finished",
@@ -498,7 +498,7 @@ export const sampleMedia = [
     {
         id: "captain-marvel",
         title: "Captain Marvel",
-        type: "movie",
+        type: "Movie",
         year: 2019,
         cover: captainMarvelCover,
         status: "finished",
@@ -513,7 +513,7 @@ export const sampleMedia = [
     {
         id: "chainsaw-man-the-movie-reze-arc",
         title: "Chainsaw Man – The Movie: Reze Arc",
-        type: "movie",
+        type: "Movie",
         year: 2025,
         cover: chainsawManTheMovieRezeArcCover,
         status: "finished",
@@ -528,7 +528,7 @@ export const sampleMedia = [
     {
         id: "clayface",
         title: "Clayface",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: clayfaceCover,
         status: "finished",
@@ -543,7 +543,7 @@ export const sampleMedia = [
     {
         id: "colony",
         title: "Colony",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: colonyCover,
         status: "finished",
@@ -558,7 +558,7 @@ export const sampleMedia = [
     {
         id: "confessions",
         title: "Confessions",
-        type: "movie",
+        type: "Movie",
         year: 2010,
         cover: confessionsCover,
         status: "finished",
@@ -573,7 +573,7 @@ export const sampleMedia = [
     {
         id: "deadpool-wolverine",
         title: "Deadpool & Wolverine",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: deadpoolWolverineCover,
         status: "finished",
@@ -588,7 +588,7 @@ export const sampleMedia = [
     {
         id: "decision-to-leave",
         title: "Decision to Leave",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: decisionToLeaveCover,
         status: "finished",
@@ -603,7 +603,7 @@ export const sampleMedia = [
     {
         id: "dhurandhar",
         title: "Dhurandhar",
-        type: "movie",
+        type: "Movie",
         year: 2025,
         cover: dhurandharCover,
         status: "finished",
@@ -618,7 +618,7 @@ export const sampleMedia = [
     {
         id: "dhurandhar-the-revenge",
         title: "Dhurandhar The Revenge",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: dhurandharTheRevengeCover,
         status: "finished",
@@ -633,7 +633,7 @@ export const sampleMedia = [
     {
         id: "digger",
         title: "Digger",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: diggerCover,
         status: "finished",
@@ -648,7 +648,7 @@ export const sampleMedia = [
     {
         id: "doctor-strange",
         title: "Doctor Strange",
-        type: "movie",
+        type: "Movie",
         year: 2016,
         cover: doctorStrangeCover,
         status: "finished",
@@ -663,7 +663,7 @@ export const sampleMedia = [
     {
         id: "doctor-strange-in-the-multiverse-of-madness",
         title: "Doctor Strange in the Multiverse of Madness",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: doctorStrangeInTheMultiverseOfMadnessCover,
         status: "finished",
@@ -678,7 +678,7 @@ export const sampleMedia = [
     {
         id: "dune-movie-2021",
         title: "Dune",
-        type: "movie",
+        type: "Movie",
         year: 2021,
         cover: duneCover,
         status: "finished",
@@ -693,7 +693,7 @@ export const sampleMedia = [
     {
         id: "dune-part-two",
         title: "Dune: Part Two",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: dunePartTwoCover,
         status: "finished",
@@ -708,7 +708,7 @@ export const sampleMedia = [
     {
         id: "eternal-sunshine-of-the-spotless-mind",
         title: "Eternal Sunshine of the Spotless Mind",
-        type: "movie",
+        type: "Movie",
         year: 2004,
         cover: eternalSunshineOfTheSpotlessMindCover,
         status: "finished",
@@ -723,7 +723,7 @@ export const sampleMedia = [
     {
         id: "eternals",
         title: "Eternals",
-        type: "movie",
+        type: "Movie",
         year: 2021,
         cover: eternalsCover,
         status: "finished",
@@ -738,7 +738,7 @@ export const sampleMedia = [
     {
         id: "everything-everywhere-all-at-once",
         title: "Everything Everywhere All at Once",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: everythingEverywhereAllAtOnceCover,
         status: "finished",
@@ -753,7 +753,7 @@ export const sampleMedia = [
     {
         id: "evil-dead",
         title: "Evil Dead",
-        type: "movie",
+        type: "Movie",
         year: 2013,
         cover: evilDeadCover,
         status: "finished",
@@ -768,7 +768,7 @@ export const sampleMedia = [
     {
         id: "fight-club",
         title: "Fight Club",
-        type: "movie",
+        type: "Movie",
         year: 1999,
         cover: fightClubCover,
         status: "finished",
@@ -783,7 +783,7 @@ export const sampleMedia = [
     {
         id: "following",
         title: "Following",
-        type: "movie",
+        type: "Movie",
         year: 1998,
         cover: followingCover,
         status: "finished",
@@ -798,7 +798,7 @@ export const sampleMedia = [
     {
         id: "furiosa-a-mad-max-saga",
         title: "Furiosa: A Mad Max Saga",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: furiosaAMadMaxSagaCover,
         status: "finished",
@@ -813,7 +813,7 @@ export const sampleMedia = [
     {
         id: "ghost-in-the-shell",
         title: "Ghost in the Shell",
-        type: "movie",
+        type: "Movie",
         year: 1995,
         cover: ghostInTheShellCover,
         status: "finished",
@@ -828,7 +828,7 @@ export const sampleMedia = [
     {
         id: "godzilla-kong-the-new-empire",
         title: "Godzilla × Kong: The New Empire",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: godzillaKongTheNewEmpireCover,
         status: "finished",
@@ -843,7 +843,7 @@ export const sampleMedia = [
     {
         id: "guardians-of-the-galaxy",
         title: "Guardians of the Galaxy",
-        type: "movie",
+        type: "Movie",
         year: 2014,
         cover: guardiansOfTheGalaxyCover,
         status: "finished",
@@ -858,7 +858,7 @@ export const sampleMedia = [
     {
         id: "guardians-of-the-galaxy-vol-2",
         title: "Guardians of the Galaxy Vol. 2",
-        type: "movie",
+        type: "Movie",
         year: 2017,
         cover: guardiansOfTheGalaxyVol2Cover,
         status: "finished",
@@ -873,7 +873,7 @@ export const sampleMedia = [
     {
         id: "guinea-pig-part-2-flower-of-flesh-and-blood",
         title: "Guinea Pig Part 2: Flower of Flesh and Blood",
-        type: "movie",
+        type: "Movie",
         year: 1985,
         cover: guineaPigPart2FlowerOfFleshAndBloodCover,
         status: "finished",
@@ -888,7 +888,7 @@ export const sampleMedia = [
     {
         id: "guinea-pig-devils-experiment",
         title: "Guinea Pig: Devil's Experiment",
-        type: "movie",
+        type: "Movie",
         year: 1985,
         cover: guineaPigDevilsExperimentCover,
         status: "finished",
@@ -903,7 +903,7 @@ export const sampleMedia = [
     {
         id: "hope",
         title: "Hope",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: hopeCover,
         status: "finished",
@@ -918,7 +918,7 @@ export const sampleMedia = [
     {
         id: "howls-moving-castle",
         title: "Howl's Moving Castle",
-        type: "movie",
+        type: "Movie",
         year: 2004,
         cover: howlsMovingCastleCover,
         status: "finished",
@@ -933,7 +933,7 @@ export const sampleMedia = [
     {
         id: "in-the-mouth-of-madness",
         title: "In the Mouth of Madness",
-        type: "movie",
+        type: "Movie",
         year: 1994,
         cover: inTheMouthOfMadnessCover,
         status: "finished",
@@ -948,7 +948,7 @@ export const sampleMedia = [
     {
         id: "insidious-out-of-the-further",
         title: "Insidious: Out of the Further",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: insidiousOutOfTheFurtherCover,
         status: "finished",
@@ -963,7 +963,7 @@ export const sampleMedia = [
     {
         id: "insomnia",
         title: "Insomnia",
-        type: "movie",
+        type: "Movie",
         year: 2002,
         cover: insomniaCover,
         status: "finished",
@@ -978,7 +978,7 @@ export const sampleMedia = [
     {
         id: "interstellar",
         title: "Interstellar",
-        type: "movie",
+        type: "Movie",
         year: 2014,
         cover: interstellarCover,
         status: "finished",
@@ -993,7 +993,7 @@ export const sampleMedia = [
     {
         id: "iron-lung-movie-2026",
         title: "Iron Lung",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: ironLungCover,
         status: "finished",
@@ -1008,7 +1008,7 @@ export const sampleMedia = [
     {
         id: "iron-man",
         title: "Iron Man",
-        type: "movie",
+        type: "Movie",
         year: 2008,
         cover: ironManCover,
         status: "finished",
@@ -1023,7 +1023,7 @@ export const sampleMedia = [
     {
         id: "iron-man-2",
         title: "Iron Man 2",
-        type: "movie",
+        type: "Movie",
         year: 2010,
         cover: ironMan2Cover,
         status: "finished",
@@ -1038,7 +1038,7 @@ export const sampleMedia = [
     {
         id: "iron-man-3",
         title: "Iron Man 3",
-        type: "movie",
+        type: "Movie",
         year: 2013,
         cover: ironMan3Cover,
         status: "finished",
@@ -1053,7 +1053,7 @@ export const sampleMedia = [
     {
         id: "john-wick",
         title: "John Wick",
-        type: "movie",
+        type: "Movie",
         year: 2014,
         cover: johnWickCover,
         status: "finished",
@@ -1068,7 +1068,7 @@ export const sampleMedia = [
     {
         id: "john-wick-chapter-2",
         title: "John Wick: Chapter 2",
-        type: "movie",
+        type: "Movie",
         year: 2017,
         cover: johnWickChapter2Cover,
         status: "finished",
@@ -1083,7 +1083,7 @@ export const sampleMedia = [
     {
         id: "john-wick-chapter-3-parabellum",
         title: "John Wick: Chapter 3 – Parabellum",
-        type: "movie",
+        type: "Movie",
         year: 2019,
         cover: johnWickChapter3ParabellumCover,
         status: "finished",
@@ -1098,7 +1098,7 @@ export const sampleMedia = [
     {
         id: "john-wick-chapter-4",
         title: "John Wick: Chapter 4",
-        type: "movie",
+        type: "Movie",
         year: 2023,
         cover: johnWickChapter4Cover,
         status: "finished",
@@ -1113,7 +1113,7 @@ export const sampleMedia = [
     {
         id: "joseph-king-of-dreams",
         title: "Joseph: King of Dreams",
-        type: "movie",
+        type: "Movie",
         year: 2000,
         cover: josephKingOfDreamsCover,
         status: "finished",
@@ -1128,7 +1128,7 @@ export const sampleMedia = [
     {
         id: "lighting-up-the-stars",
         title: "Lighting Up the Stars",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: lightingUpTheStarsCover,
         status: "finished",
@@ -1143,7 +1143,7 @@ export const sampleMedia = [
     {
         id: "look-back",
         title: "Look Back",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: lookBackCover,
         status: "finished",
@@ -1158,7 +1158,7 @@ export const sampleMedia = [
     {
         id: "lost-highway",
         title: "Lost Highway",
-        type: "movie",
+        type: "Movie",
         year: 1997,
         cover: lostHighwayCover,
         status: "finished",
@@ -1173,7 +1173,7 @@ export const sampleMedia = [
     {
         id: "mad-max-fury-road",
         title: "Mad Max: Fury Road",
-        type: "movie",
+        type: "Movie",
         year: 2015,
         cover: madMaxFuryRoadCover,
         status: "finished",
@@ -1188,7 +1188,7 @@ export const sampleMedia = [
     {
         id: "memento",
         title: "Memento",
-        type: "movie",
+        type: "Movie",
         year: 2000,
         cover: mementoCover,
         status: "finished",
@@ -1203,7 +1203,7 @@ export const sampleMedia = [
     {
         id: "men-behind-the-sun",
         title: "Men Behind the Sun",
-        type: "movie",
+        type: "Movie",
         year: 1988,
         cover: menBehindTheSunCover,
         status: "finished",
@@ -1218,7 +1218,7 @@ export const sampleMedia = [
     {
         id: "midsommar",
         title: "Midsommar",
-        type: "movie",
+        type: "Movie",
         year: 2019,
         cover: midsommarCover,
         status: "finished",
@@ -1233,7 +1233,7 @@ export const sampleMedia = [
     {
         id: "monkey-man",
         title: "Monkey Man",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: monkeyManCover,
         status: "finished",
@@ -1248,7 +1248,7 @@ export const sampleMedia = [
     {
         id: "neon-genesis-evangelion-the-end-of-evangelion",
         title: "Neon Genesis Evangelion: The End of Evangelion",
-        type: "movie",
+        type: "Movie",
         year: 1997,
         cover: neonGenesisEvangelionTheEndOfEvangelionCover,
         status: "finished",
@@ -1263,7 +1263,7 @@ export const sampleMedia = [
     {
         id: "nobody",
         title: "Nobody",
-        type: "movie",
+        type: "Movie",
         year: 2021,
         cover: nobodyCover,
         status: "finished",
@@ -1278,7 +1278,7 @@ export const sampleMedia = [
     {
         id: "nosferatu",
         title: "Nosferatu",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: nosferatuCover,
         status: "finished",
@@ -1293,7 +1293,7 @@ export const sampleMedia = [
     {
         id: "obsession",
         title: "Obsession",
-        type: "movie",
+        type: "Movie",
         year: 2025,
         cover: obsessionCover,
         status: "finished",
@@ -1308,7 +1308,7 @@ export const sampleMedia = [
     {
         id: "oldboy",
         title: "Oldboy",
-        type: "movie",
+        type: "Movie",
         year: 2003,
         cover: oldboyCover,
         status: "finished",
@@ -1323,7 +1323,7 @@ export const sampleMedia = [
     {
         id: "onslaught",
         title: "Onslaught",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: onslaughtCover,
         status: "finished",
@@ -1338,7 +1338,7 @@ export const sampleMedia = [
     {
         id: "onward",
         title: "Onward",
-        type: "movie",
+        type: "Movie",
         year: 2020,
         cover: onwardCover,
         status: "finished",
@@ -1353,7 +1353,7 @@ export const sampleMedia = [
     {
         id: "oppenheimer",
         title: "Oppenheimer",
-        type: "movie",
+        type: "Movie",
         year: 2023,
         cover: oppenheimerCover,
         status: "finished",
@@ -1368,7 +1368,7 @@ export const sampleMedia = [
     {
         id: "pacific-rim",
         title: "Pacific Rim",
-        type: "movie",
+        type: "Movie",
         year: 2013,
         cover: pacificRimCover,
         status: "finished",
@@ -1383,7 +1383,7 @@ export const sampleMedia = [
     {
         id: "pacific-rim-uprising",
         title: "Pacific Rim: Uprising",
-        type: "movie",
+        type: "Movie",
         year: 2018,
         cover: pacificRimUprisingCover,
         status: "finished",
@@ -1398,7 +1398,7 @@ export const sampleMedia = [
     {
         id: "primetime",
         title: "Primetime",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: primetimeCover,
         status: "finished",
@@ -1413,7 +1413,7 @@ export const sampleMedia = [
     {
         id: "princess-mononoke",
         title: "Princess Mononoke",
-        type: "movie",
+        type: "Movie",
         year: 1997,
         cover: princessMononokeCover,
         status: "finished",
@@ -1428,7 +1428,7 @@ export const sampleMedia = [
     {
         id: "project-hail-mary",
         title: "Project Hail Mary",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: projectHailMaryCover,
         status: "finished",
@@ -1443,7 +1443,7 @@ export const sampleMedia = [
     {
         id: "resident-evil",
         title: "Resident Evil",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: residentEvilCover,
         status: "finished",
@@ -1458,7 +1458,7 @@ export const sampleMedia = [
     {
         id: "scott-pilgrim-vs-the-world",
         title: "Scott Pilgrim vs. the World",
-        type: "movie",
+        type: "Movie",
         year: 2010,
         cover: scottPilgrimVsTheWorldCover,
         status: "finished",
@@ -1473,7 +1473,7 @@ export const sampleMedia = [
     {
         id: "se7en",
         title: "Se7en",
-        type: "movie",
+        type: "Movie",
         year: 1995,
         cover: se7enCover,
         status: "finished",
@@ -1488,7 +1488,7 @@ export const sampleMedia = [
     {
         id: "shang-chi-and-the-legend-of-the-ten-rings",
         title: "Shang-Chi and the Legend of the Ten Rings",
-        type: "movie",
+        type: "Movie",
         year: 2021,
         cover: shangChiAndTheLegendOfTheTenRingsCover,
         status: "finished",
@@ -1503,7 +1503,7 @@ export const sampleMedia = [
     {
         id: "sholay",
         title: "Sholay",
-        type: "movie",
+        type: "Movie",
         year: 1975,
         cover: sholayCover,
         status: "finished",
@@ -1518,7 +1518,7 @@ export const sampleMedia = [
     {
         id: "shutter-island",
         title: "Shutter Island",
-        type: "movie",
+        type: "Movie",
         year: 2010,
         cover: shutterIslandCover,
         status: "finished",
@@ -1533,7 +1533,7 @@ export const sampleMedia = [
     {
         id: "sinister",
         title: "Sinister",
-        type: "movie",
+        type: "Movie",
         year: 2012,
         cover: sinisterCover,
         status: "finished",
@@ -1548,7 +1548,7 @@ export const sampleMedia = [
     {
         id: "spider-man",
         title: "Spider-Man",
-        type: "movie",
+        type: "Movie",
         year: 2002,
         cover: spiderManCover,
         status: "finished",
@@ -1563,7 +1563,7 @@ export const sampleMedia = [
     {
         id: "spider-man-2",
         title: "Spider-Man 2",
-        type: "movie",
+        type: "Movie",
         year: 2004,
         cover: spiderMan2Cover,
         status: "finished",
@@ -1578,7 +1578,7 @@ export const sampleMedia = [
     {
         id: "spider-man-3",
         title: "Spider-Man 3",
-        type: "movie",
+        type: "Movie",
         year: 2007,
         cover: spiderMan3Cover,
         status: "finished",
@@ -1593,7 +1593,7 @@ export const sampleMedia = [
     {
         id: "spider-man-across-the-spider-verse",
         title: "Spider-Man: Across the Spider-Verse",
-        type: "movie",
+        type: "Movie",
         year: 2023,
         cover: spiderManAcrossTheSpiderVerseCover,
         status: "finished",
@@ -1608,7 +1608,7 @@ export const sampleMedia = [
     {
         id: "spider-man-brand-new-day",
         title: "Spider-Man: Brand New Day",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: spiderManBrandNewDayCover,
         status: "finished",
@@ -1623,7 +1623,7 @@ export const sampleMedia = [
     {
         id: "spider-man-far-from-home",
         title: "Spider-Man: Far From Home",
-        type: "movie",
+        type: "Movie",
         year: 2019,
         cover: spiderManFarFromHomeCover,
         status: "finished",
@@ -1638,7 +1638,7 @@ export const sampleMedia = [
     {
         id: "spider-man-homecoming",
         title: "Spider-Man: Homecoming",
-        type: "movie",
+        type: "Movie",
         year: 2017,
         cover: spiderManHomecomingCover,
         status: "finished",
@@ -1653,7 +1653,7 @@ export const sampleMedia = [
     {
         id: "spider-man-into-the-spider-verse",
         title: "Spider-Man: Into the Spider-Verse",
-        type: "movie",
+        type: "Movie",
         year: 2018,
         cover: spiderManIntoTheSpiderVerseCover,
         status: "finished",
@@ -1668,7 +1668,7 @@ export const sampleMedia = [
     {
         id: "spider-man-no-way-home",
         title: "Spider-Man: No Way Home",
-        type: "movie",
+        type: "Movie",
         year: 2021,
         cover: spiderManNoWayHomeCover,
         status: "finished",
@@ -1683,7 +1683,7 @@ export const sampleMedia = [
     {
         id: "stray-dog",
         title: "Stray Dog",
-        type: "movie",
+        type: "Movie",
         year: 1949,
         cover: strayDogCover,
         status: "finished",
@@ -1698,7 +1698,7 @@ export const sampleMedia = [
     {
         id: "superman",
         title: "Superman",
-        type: "movie",
+        type: "Movie",
         year: 2025,
         cover: supermanCover,
         status: "finished",
@@ -1713,7 +1713,7 @@ export const sampleMedia = [
     {
         id: "suzume",
         title: "Suzume",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: suzumeCover,
         status: "finished",
@@ -1728,7 +1728,7 @@ export const sampleMedia = [
     {
         id: "terrifier-movie-2011",
         title: "Terrifier",
-        type: "movie",
+        type: "Movie",
         year: 2011,
         cover: terrifier2011Cover,
         status: "finished",
@@ -1743,7 +1743,7 @@ export const sampleMedia = [
     {
         id: "terrifier-movie-2016",
         title: "Terrifier",
-        type: "movie",
+        type: "Movie",
         year: 2016,
         cover: terrifier2016Cover,
         status: "finished",
@@ -1758,7 +1758,7 @@ export const sampleMedia = [
     {
         id: "the-amazing-spider-man",
         title: "The Amazing Spider-Man",
-        type: "movie",
+        type: "Movie",
         year: 2012,
         cover: theAmazingSpiderManCover,
         status: "finished",
@@ -1773,7 +1773,7 @@ export const sampleMedia = [
     {
         id: "the-amazing-spider-man-2",
         title: "The Amazing Spider-Man 2",
-        type: "movie",
+        type: "Movie",
         year: 2014,
         cover: theAmazingSpiderMan2Cover,
         status: "finished",
@@ -1788,7 +1788,7 @@ export const sampleMedia = [
     {
         id: "the-avengers",
         title: "The Avengers",
-        type: "movie",
+        type: "Movie",
         year: 2012,
         cover: theAvengersCover,
         status: "finished",
@@ -1803,7 +1803,7 @@ export const sampleMedia = [
     {
         id: "the-batman",
         title: "The Batman",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: theBatmanCover,
         status: "finished",
@@ -1818,7 +1818,7 @@ export const sampleMedia = [
     {
         id: "the-blair-witch-project",
         title: "The Blair Witch Project",
-        type: "movie",
+        type: "Movie",
         year: 1999,
         cover: theBlairWitchProjectCover,
         status: "finished",
@@ -1833,7 +1833,7 @@ export const sampleMedia = [
     {
         id: "the-devils",
         title: "The Devils",
-        type: "movie",
+        type: "Movie",
         year: 1971,
         cover: theDevilsCover,
         status: "finished",
@@ -1848,7 +1848,7 @@ export const sampleMedia = [
     {
         id: "the-end-of-oak-street",
         title: "The End of Oak Street",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: theEndOfOakStreetCover,
         status: "finished",
@@ -1863,7 +1863,7 @@ export const sampleMedia = [
     {
         id: "the-hills-have-eyes",
         title: "The Hills Have Eyes",
-        type: "movie",
+        type: "Movie",
         year: 1977,
         cover: theHillsHaveEyesCover,
         status: "finished",
@@ -1878,7 +1878,7 @@ export const sampleMedia = [
     {
         id: "the-human-centipede-first-sequence",
         title: "The Human Centipede (First Sequence)",
-        type: "movie",
+        type: "Movie",
         year: 2009,
         cover: theHumanCentipedeFirstSequenceCover,
         status: "finished",
@@ -1893,7 +1893,7 @@ export const sampleMedia = [
     {
         id: "the-human-centipede-2-full-sequence",
         title: "The Human Centipede 2 (Full Sequence)",
-        type: "movie",
+        type: "Movie",
         year: 2011,
         cover: theHumanCentipede2FullSequenceCover,
         status: "finished",
@@ -1908,7 +1908,7 @@ export const sampleMedia = [
     {
         id: "the-human-centipede-3-final-sequence",
         title: "The Human Centipede 3 (Final Sequence)",
-        type: "movie",
+        type: "Movie",
         year: 2015,
         cover: theHumanCentipede3FinalSequenceCover,
         status: "finished",
@@ -1923,7 +1923,7 @@ export const sampleMedia = [
     {
         id: "the-incredible-hulk",
         title: "The Incredible Hulk",
-        type: "movie",
+        type: "Movie",
         year: 2008,
         cover: theIncredibleHulkCover,
         status: "finished",
@@ -1938,7 +1938,7 @@ export const sampleMedia = [
     {
         id: "the-odyssey",
         title: "The Odyssey",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: theOdysseyCover,
         status: "finished",
@@ -1953,7 +1953,7 @@ export const sampleMedia = [
     {
         id: "the-outlaws",
         title: "The Outlaws",
-        type: "movie",
+        type: "Movie",
         year: 2017,
         cover: theOutlawsCover,
         status: "finished",
@@ -1968,7 +1968,7 @@ export const sampleMedia = [
     {
         id: "the-perks-of-being-a-wallflower",
         title: "The Perks of Being a Wallflower",
-        type: "movie",
+        type: "Movie",
         year: 2012,
         cover: thePerksOfBeingAWallflowerCover,
         status: "finished",
@@ -1983,7 +1983,7 @@ export const sampleMedia = [
     {
         id: "the-prestige",
         title: "The Prestige",
-        type: "movie",
+        type: "Movie",
         year: 2006,
         cover: thePrestigeCover,
         status: "finished",
@@ -1998,7 +1998,7 @@ export const sampleMedia = [
     {
         id: "the-princess-bride-movie-1987",
         title: "The Princess Bride",
-        type: "movie",
+        type: "Movie",
         year: 1987,
         cover: thePrincessBrideCover,
         status: "finished",
@@ -2013,7 +2013,7 @@ export const sampleMedia = [
     {
         id: "the-roundup",
         title: "The Roundup",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: theRoundupCover,
         status: "finished",
@@ -2028,7 +2028,7 @@ export const sampleMedia = [
     {
         id: "the-substance",
         title: "The Substance",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: theSubstanceCover,
         status: "finished",
@@ -2043,7 +2043,7 @@ export const sampleMedia = [
     {
         id: "thor",
         title: "Thor",
-        type: "movie",
+        type: "Movie",
         year: 2011,
         cover: thorCover,
         status: "finished",
@@ -2058,7 +2058,7 @@ export const sampleMedia = [
     {
         id: "thor-love-and-thunder",
         title: "Thor: Love and Thunder",
-        type: "movie",
+        type: "Movie",
         year: 2022,
         cover: thorLoveAndThunderCover,
         status: "finished",
@@ -2073,7 +2073,7 @@ export const sampleMedia = [
     {
         id: "thor-ragnarok",
         title: "Thor: Ragnarok",
-        type: "movie",
+        type: "Movie",
         year: 2017,
         cover: thorRagnarokCover,
         status: "finished",
@@ -2088,7 +2088,7 @@ export const sampleMedia = [
     {
         id: "thor-the-dark-world",
         title: "Thor: The Dark World",
-        type: "movie",
+        type: "Movie",
         year: 2013,
         cover: thorTheDarkWorldCover,
         status: "finished",
@@ -2103,7 +2103,7 @@ export const sampleMedia = [
     {
         id: "transformers",
         title: "Transformers",
-        type: "movie",
+        type: "Movie",
         year: 2007,
         cover: transformersCover,
         status: "finished",
@@ -2118,7 +2118,7 @@ export const sampleMedia = [
     {
         id: "transformers-one",
         title: "Transformers One",
-        type: "movie",
+        type: "Movie",
         year: 2024,
         cover: transformersOneCover,
         status: "finished",
@@ -2133,7 +2133,7 @@ export const sampleMedia = [
     {
         id: "transformers-age-of-extinction",
         title: "Transformers: Age of Extinction",
-        type: "movie",
+        type: "Movie",
         year: 2014,
         cover: transformersAgeOfExtinctionCover,
         status: "finished",
@@ -2148,7 +2148,7 @@ export const sampleMedia = [
     {
         id: "transformers-dark-of-the-moon",
         title: "Transformers: Dark of the Moon",
-        type: "movie",
+        type: "Movie",
         year: 2011,
         cover: transformersDarkOfTheMoonCover,
         status: "finished",
@@ -2163,7 +2163,7 @@ export const sampleMedia = [
     {
         id: "transformers-revenge-of-the-fallen",
         title: "Transformers: Revenge of the Fallen",
-        type: "movie",
+        type: "Movie",
         year: 2009,
         cover: transformersRevengeOfTheFallenCover,
         status: "finished",
@@ -2178,7 +2178,7 @@ export const sampleMedia = [
     {
         id: "transformers-rise-of-the-beasts",
         title: "Transformers: Rise of the Beasts",
-        type: "movie",
+        type: "Movie",
         year: 2023,
         cover: transformersRiseOfTheBeastsCover,
         status: "finished",
@@ -2193,7 +2193,7 @@ export const sampleMedia = [
     {
         id: "transformers-the-last-knight",
         title: "Transformers: The Last Knight",
-        type: "movie",
+        type: "Movie",
         year: 2017,
         cover: transformersTheLastKnightCover,
         status: "finished",
@@ -2208,7 +2208,7 @@ export const sampleMedia = [
     {
         id: "uptown-girls",
         title: "Uptown Girls",
-        type: "movie",
+        type: "Movie",
         year: 2003,
         cover: uptownGirlsCover,
         status: "finished",
@@ -2223,7 +2223,7 @@ export const sampleMedia = [
     {
         id: "whalefall",
         title: "Whalefall",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: whalefallCover,
         status: "finished",
@@ -2238,7 +2238,7 @@ export const sampleMedia = [
     {
         id: "you-can-see-everything",
         title: "You Can See Everything",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: youCanSeeEverythingCover,
         status: "finished",
@@ -2253,7 +2253,7 @@ export const sampleMedia = [
     {
         id: "your-name",
         title: "Your Name.",
-        type: "movie",
+        type: "Movie",
         year: 2016,
         cover: yourNameCover,
         status: "finished",
@@ -2268,7 +2268,7 @@ export const sampleMedia = [
     {
         id: "zootopia",
         title: "Zootopia",
-        type: "movie",
+        type: "Movie",
         year: 2016,
         cover: zootopiaCover,
         status: "finished",
@@ -2283,7 +2283,7 @@ export const sampleMedia = [
     {
         id: "zootopia-2",
         title: "Zootopia 2",
-        type: "movie",
+        type: "Movie",
         year: 2025,
         cover: zootopia2Cover,
         status: "finished",
@@ -2298,7 +2298,7 @@ export const sampleMedia = [
     {
         id: "metaphor-refantazio",
         title: "Metaphor ReFantazio",
-        type: "game",
+        type: "Game",
         year: 2024,
         cover: metaphorRefantazioCover,
 
@@ -2315,7 +2315,7 @@ export const sampleMedia = [
     {
         id: "disco-elysium",
         title: "Disco Elysium",
-        type: "game",
+        type: "Game",
         year: 2019,
         cover: discoElysiumCover,
 
@@ -2332,7 +2332,7 @@ export const sampleMedia = [
     {
         id: "invisible-life-of-addie-la-rue",
         title: "The Invisible Life of Addie La Rue",
-        type: "book",
+        type: "Book",
         year: 2020,
         cover: theInvisibleLifeOfAddieLaRueCover,
 
@@ -2349,7 +2349,7 @@ export const sampleMedia = [
     {
         id: "silent-hill-2-remake",
         title: "Silent Hill 2 Remake",
-        type: "game",
+        type: "Game",
         year: 2024,
         cover: silentHill2RemakeCover,
 
@@ -2369,7 +2369,7 @@ export const sampleMedia = [
     {
         id: "mans-search-for-meaning",
         title: "Man's Search for Meaning",
-        type: "book",
+        type: "Book",
         year: 1946,
         cover: mansSearchForMeaningCover,
 

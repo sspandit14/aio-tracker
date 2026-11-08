@@ -1,5 +1,6 @@
 import { useState } from "react";
 import PinnedCard from "./PinnedCard";
+import "./PinnedSection.css"
 
 export default function PinnedSection({items}) {
     const [displayIdx, setDisplayIdx] = useState(0)
@@ -19,7 +20,7 @@ export default function PinnedSection({items}) {
     return(
         <div className="pinned-section">
             <div className="pinned-section-content">
-                <h2>Pinned</h2>
+                <h2 className="section-heading">Pinned</h2>
                 <div className="pinned-carousel">
                     <div className="pinned-carousel-view">
                         <div className="pinned-carousel-track" style= {{transform: `translateX(-${displayIdx*100}%)`}}>

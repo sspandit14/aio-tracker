@@ -1,0 +1,46 @@
+.ongoing-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.ongoing-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.ongoing-card {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 0;
+}
+
+.ongoing-cover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ongoing-card h3,
+.ongoing-card p {
+    margin: 0;
+}
+
+.ongoing-card p {
+    color: var(--color-muted)
+}
+
+.ongoing-cover-frame {
+    width: 100%;
+    aspect-ratio: 3/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--color-alt-surface);
+}

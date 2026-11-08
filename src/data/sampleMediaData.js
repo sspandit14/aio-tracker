@@ -10,7 +10,7 @@ export const sampleMedia = [
     {
         id: "lost-highway",
         title: "Lost Highway",
-        type: "movie",
+        type: "Movie",
         year: 1997,
         cover: lostHighwayCover,
 
@@ -27,7 +27,7 @@ export const sampleMedia = [
     {
         id: "metaphor-refantazio",
         title: "Metaphor ReFantazio",
-        type: "game",
+        type: "Game",
         year: 2024,
         cover: metaphorRefantazioCover,
 
@@ -44,7 +44,7 @@ export const sampleMedia = [
     {
         id: "disco-elysium",
         title: "Disco Elysium",
-        type: "game",
+        type: "Game",
         year: 2019,
         cover: discoElysiumCover,
 
@@ -61,7 +61,7 @@ export const sampleMedia = [
     {
         id: "invisible-life-of-addie-la-rue",
         title: "The Invisible Life of Addie La Rue",
-        type: "book",
+        type: "Book",
         year: 2020,
         cover: invisibleLifeCover,
 
@@ -78,7 +78,7 @@ export const sampleMedia = [
     {
         id: "silent-hill-2-remake",
         title: "Silent Hill 2 Remake",
-        type: "game",
+        type: "Game",
         year: 2024,
         cover: silentHill2Cover,
 
@@ -98,7 +98,7 @@ export const sampleMedia = [
     {
         id: "resident-evil-movie",
         title: "Resident Evil Movie",
-        type: "movie",
+        type: "Movie",
         year: 2026,
         cover: residentEvilMovieCover,
 
@@ -118,7 +118,7 @@ export const sampleMedia = [
     {
         id: "mans-search-for-meaning",
         title: "Man's Search for Meaning",
-        type: "book",
+        type: "Book",
         year: 1946,
         cover: mansSearchForMeaningCover,
 

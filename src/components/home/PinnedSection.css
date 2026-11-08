@@ -1,0 +1,102 @@
+
+.pinned-section-content {
+    width: 90%;
+    max-width: 1280px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.pinned-carousel {
+    width: 100%;
+    margin-inline: auto;
+}
+
+.pinned-carousel-view {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 3rem;
+}
+
+.pinned-carousel-track {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+}
+
+.pinned-carousel-slide {
+    flex: 0 0 100%; /* flex grow, shrink, basis */
+    min-width: 0;
+}
+
+.pinned-carousel-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.pinned-carousel-buttons button {
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    border-radius: 0.5rem;
+}
+
+.pinned-carousel-buttons button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-background);
+}
+
+.pinned-card {
+    width: 100%;
+    margin-inline: auto;
+    min-height: clamp(20rem, 38vh, 26rem);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: var(--color-alt-surface);
+    color: var(--color-text);
+}
+
+.pinned-cover {
+    display: block;
+    width: min(100%, 220px);
+    max-height: 19rem;
+    height: auto;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center;
+}
+
+.pinned-content {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.pinned-content h3 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.pinned-content p {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.review-preview {
+    display: -webkit-box; /* used to clip text, similar/outdated flex thing */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    white-space: pre-line;
+}

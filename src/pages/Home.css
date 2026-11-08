@@ -1,0 +1,42 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-block: 2rem 5rem;
+}
+
+.home h1 {
+    text-align: center;
+}
+
+.home > div {
+    width: 90%;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.home > .pinned-section {
+    width: 100%;
+    max-width: none;
+    background-color: var(--color-surface);
+    padding-block: 25px;
+}
+
+.home .section-heading {
+    margin: 0;
+    font-size: clamp(1.75rem, 2vw, 2rem);
+    font-weight: 600;
+    line-height: 1.2;
+    color: var(--color-text);
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home .section-heading::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: var(--color-divider);
+}

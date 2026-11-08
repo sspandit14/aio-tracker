@@ -1,9 +1,10 @@
 import RecentEntry from "./RecentEntry";
+import "./RecentSection.css"
 
 export default function RecentSection({items}) {
     return(
         <div className="recent-section">
-            <h2>Recents</h2>
+            <h2 className="section-heading">Recents</h2>
             <div className="recent-table-container">
                 <table className="recent-table">
                     <thead>

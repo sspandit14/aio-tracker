@@ -5,6 +5,8 @@ import PinnedSection from "../components/home/PinnedSection"
 import OngoingSection from "../components/home/OngoingSection"
 import RecentSection from "../components/home/RecentSection"
 
+import "./Home.css"
+
 export default function Home() {
     return(
         <div className="home">
