@@ -89,11 +89,13 @@
 
 .pinned-content p {
     margin: 0;
-    font-size: 1.05rem;
+    font-size: var(--text-base);
     line-height: 1.5;
 }
 
-.review-preview {
+.pinned-content .review-preview {
+    font-size: var(--text-body);
+    line-height: 1.6;
     display: -webkit-box; /* used to clip text, similar/outdated flex thing */
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;

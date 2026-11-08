@@ -3,6 +3,12 @@
 }
 
 :root {
+    --font-editorial: Georgia, "Times New Roman", serif;
+    --font-ui: system-ui, sans-serif;
+    --text-small: 0.9375rem;
+    --text-base: 1rem;
+    --text-body: 1.125rem;
+
     --color-background: #171E18;
     --color-surface: #263426;
     --color-alt-surface: #2A3351;
@@ -26,7 +32,15 @@ body {
     margin: 0;
     background-color: var(--color-background);
     color: var(--color-text);
+    font-size: var(--text-base);
     line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
 }
 
 :where(a, button):focus-visible {

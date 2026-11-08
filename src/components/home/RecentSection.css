@@ -10,6 +10,7 @@
 }
 
 .recent-table {
+    font-size: var(--text-base);
     width: 100%;
     border-collapse: collapse;
     text-align: left;
@@ -23,7 +24,7 @@
 }
 
 .recent-table th {
-    font-size: 0.9rem;
+    font-size: var(--text-small);
     font-weight: 500;
 }
 
@@ -35,6 +36,7 @@
 .recent-table th,
 .recent-media small {
     color: var(--color-muted);
+    font-size: var(--text-small);
 }
 
 .recent-media {
@@ -52,6 +54,8 @@
 
 .recent-media b {
     display: block;
+    font-size: 1.0625rem;
+    line-height: 1.35;
 }
 
 .recent-media small {
