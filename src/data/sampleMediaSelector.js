@@ -3,8 +3,6 @@ import { sampleMedia as gamesBooksMedia } from "./sampleMediaDataGamesBooks"
 
 export const allMedia = [...moviesMedia, ...gamesBooksMedia]
 
-// ---------- derived fields (computed from media.logs) ----------
-
 // Logs oldest -> newest. Same-day logs keep their written order.
 export function getSortedLogs(media) {
     return [...media.logs].sort((a, b) => a.date.localeCompare(b.date))
@@ -34,7 +32,6 @@ export function getMediaById(id) {
 }
 
 // ---------- home page sections ----------
-
 const byLastLoggedDesc = (a, b) => (getLastLoggedOn(b) ?? "").localeCompare(getLastLoggedOn(a) ?? "")
 
 export const pinnedMedia = allMedia

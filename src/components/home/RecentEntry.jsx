@@ -1,3 +1,5 @@
+import { getCurrentStatus, getLastLoggedOn } from "../../data/sampleMediaSelector";
+
 export default function RecentEntry({media}) {
     return (
         <tr className="recent-entry">
@@ -13,11 +15,11 @@ export default function RecentEntry({media}) {
             </td>
 
             <td>
-                {media.status.replaceAll("_", " ")}
+                {getCurrentStatus(media).replaceAll("_", " ")}
             </td>
 
             <td>
-                {media.updatedOn ?? "--"}
+                {getLastLoggedOn(media) ?? "--"}
             </td>
 
             <td>

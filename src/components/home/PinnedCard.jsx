@@ -1,4 +1,8 @@
+import { getLatestTextLog } from "../../data/sampleMediaSelector";
+
 export default function PinnedCard({media}) {
+    const review_text = getLatestTextLog(media);
+
     return(
         <div className="pinned-card">
             <img className="pinned-cover"
@@ -12,8 +16,8 @@ export default function PinnedCard({media}) {
                 {media.rating != null && (
                     <p>Rating: {media.rating}/5</p>
                 )}
-                {media.review && (
-                    <p className="review-preview">{media.review}</p>
+                {review_text && (
+                    <p className="review-preview">{review_text.text}</p>
                 )}
             </div>
         </div>
