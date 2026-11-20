@@ -1,6 +1,7 @@
 import { useParams, Link, useNavigate, useLocation } from "react-router"
 import { getLastLoggedOn, getMediaById, getCurrentStatus, getStatusSince } from "../data/sampleMediaSelector"
 import { formatDate } from "../utils/formatDate";
+import RelatedWorks from "../components/media_info/RelatedWorks.jsx"
 
 const STATUS_LABELS = {
     in_progress: "In Progress",
@@ -68,7 +69,12 @@ export default function MediaInfo() {
                         <li>Rating: <b>{rating != null ? `${rating} / 5` : "Not rated"}</b></li>
                     </ul>
                 </div>
+
+                <RelatedWorks works={media.relatedWorks} />
+
                 <pre>{JSON.stringify(media, null, 2)}</pre>
+
+                {media.coverSource && (<p className="media-credit">Cover via {media.coverSource}</p> )}
             </div>
         </div>
         </>

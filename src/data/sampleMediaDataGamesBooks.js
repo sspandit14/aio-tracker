@@ -159,6 +159,10 @@ export const sampleMedia = [
             {
                 title: "Painting Over Grief: Expedition 33",
                 url: "https://www.google.com/search?q=Painting+Over+Grief%3A+Expedition+33"
+            },
+            {
+                title: "The Gommage and the Grammar of Loss",
+                url: "https://www.google.com/search?q=The+Gommage+and+the+Grammar+of+Loss"
             }
         ],
         logs: [

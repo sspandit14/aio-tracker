@@ -126,3 +126,47 @@
 .media-glance b {
     font-weight: 600;
 }
+
+.related-works {
+    background: var(--color-alt-surface);
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+}
+
+.related-works h2 {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin: 0 0 0.75rem;
+    opacity: 0.7;
+}
+
+.related-works ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.6rem;
+}
+
+.related-works a {
+    font-family: var(--font-editorial);
+    font-size: 1.15rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.related-works a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.media-credit {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    margin-top: 3rem;
+}

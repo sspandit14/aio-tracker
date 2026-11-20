@@ -8,3 +8,4 @@ A site that aims to collate and track media consumption and thoughts across diff
 - [] replace favicon icon in index.html
 - [] make pinned/all review text show the entire first sentence
 - [] add hover feedback to links?
+- [] make it "Related Work" or "Works" based on number

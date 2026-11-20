@@ -1880,7 +1880,12 @@ export const sampleMedia = [
         rating: 3.5,
         createdOn: "2026-09-22",
         pinned: false,
-        relatedWorks: [],
+        relatedWorks: [
+            {
+                title: "But What *Is* Resident Evil, Really?",
+                url: "https://www.google.com/search?q=But+What+*Is*+Resident+Evil%2C+Really%3F"
+            }
+        ],
         logs: [
             {
                 date: "2026-09-22",
