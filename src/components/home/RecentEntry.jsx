@@ -1,7 +1,9 @@
 import { Link } from "react-router";
-import { getCurrentStatus, getLastLoggedOn } from "../../data/sampleMediaSelector";
+import { getCurrentStatus, getLastLoggedOn, getRating } from "../../data/sampleMediaSelector";
 
 export default function RecentEntry({media}) {
+    const rating = getRating(media);
+
     return (
         <tr className="recent-entry">
             <td>
@@ -26,7 +28,7 @@ export default function RecentEntry({media}) {
             </td>
 
             <td>
-                {media.rating != null ? `${media.rating}/5` : "--"}
+                {rating != null ? `${rating}/5` : "--"}
             </td>
         </tr>
     )

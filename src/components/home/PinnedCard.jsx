@@ -1,8 +1,9 @@
 import { Link } from "react-router";
-import { getLatestTextLog } from "../../data/sampleMediaSelector";
+import { getLatestTextLog, getRating } from "../../data/sampleMediaSelector";
 
 export default function PinnedCard({media}) {
     const review_text = getLatestTextLog(media);
+    const rating = getRating(media);
 
     return(
         <div className="pinned-card">
@@ -18,8 +19,8 @@ export default function PinnedCard({media}) {
                     <Link to={`/media/${media.id}`} className="pinned-content-link"> {media.title} </Link>
                 </h3>
                 <p>{media.type} | {media.year}</p>
-                {media.rating != null && (
-                    <p>Rating: {media.rating}/5</p>
+                {rating != null && (
+                    <p>Rating: {rating}/5</p>
                 )}
                 {review_text && (
                     <p className="review-preview">{review_text.text}</p>

@@ -1,5 +1,5 @@
 import { useParams, Link, useNavigate, useLocation } from "react-router"
-import { getLastLoggedOn, getMediaById, getCurrentStatus, getStatusSince } from "../data/sampleMediaSelector"
+import { getLastLoggedOn, getMediaById, getCurrentStatus, getStatusSince, getRating } from "../data/sampleMediaSelector"
 import { formatDate } from "../utils/formatDate";
 import RelatedWorks from "../components/media_info/RelatedWorks.jsx"
 
@@ -11,6 +11,7 @@ const STATUS_LABELS = {
 }
 
 import "./MediaInfo.css"
+import LogTimeline from "../components/media_info/LogTimeline.jsx";
 
 export default function MediaInfo() {
     const {id} = useParams();
@@ -39,7 +40,7 @@ export default function MediaInfo() {
     const status = getCurrentStatus(media);
     const statusSince = getStatusSince(media);
     const label = STATUS_LABELS[status] ?? "Not Started";
-    const rating = media.rating;
+    const rating = getRating(media);
 
     return(
         <>
@@ -72,7 +73,9 @@ export default function MediaInfo() {
 
                 <RelatedWorks works={media.relatedWorks} />
 
-                <pre>{JSON.stringify(media, null, 2)}</pre>
+                <hr className="media-divide" />
+
+                <LogTimeline media={media} />
 
                 {media.coverSource && (<p className="media-credit">Cover via {media.coverSource}</p> )}
             </div>

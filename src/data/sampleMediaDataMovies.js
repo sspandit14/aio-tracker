@@ -157,7 +157,6 @@ export const sampleMedia = [
         year: 2009,
         cover: fiveHundredDaysOfSummerCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-03-14",
         pinned: false,
         relatedWorks: [],
@@ -166,7 +165,8 @@ export const sampleMedia = [
                 date: "2026-08-10",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -177,7 +177,6 @@ export const sampleMedia = [
         year: 2007,
         cover: fiveCentimetersPerSecondCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2024-08-13",
         pinned: true,
         relatedWorks: [],
@@ -186,7 +185,8 @@ export const sampleMedia = [
                 date: "2026-09-27",
                 status: "finished",
                 label: null,
-                text: "The antithesis of Your Name.\n\nIf Your Name is the celebration of the hopeless romantic fantasy, 5 Centimeters per Second is its grounded, anti-climactic counterpart in reality.\n\nThe visuals are great, as always, but its themes and message landed so strongly for me that it vastly overshadows any of my issues with the movie (mainly a boring part 2 that works in concept but was a chore to sit through and didn't land as strongly as it might have wanted to on an emotional level).\n\nThe way the movie presents the genuine relationship and romance between Takaki and Akari in their youth and how and to what extent that experience comes to bear on each of their trajectories feels... painfully real. There isn't much drama or over the top and outwardly intense reflections, confrontations, or reunions between our characters nor is there ever really a strong dramatic tilt to the events on screen. There's a quiet, gradual passing of time and progression through life that feels imperceptible in the moment but culminates in the two very different states we see Takaki and Akari in by the end of the movie. It's kind of cringe and cliche to say that this movie does kind of feel like it's ultimately saying \"don't cry because it's over, smile because it happened\"—and it's not exactly that—but idrc, it worked for me.\n\nThere's something about that final scene that sticks with me: it doesn't feel like it's saying to \"let go and move on\" exactly, and I like to think that it's rather Takaki changing his grip on his memories and what that experience he had means; like Akari, I think it signals a shift towards incorporating it rather than longing for, idealising it, or undermining it."
+                text: "The antithesis of Your Name.\n\nIf Your Name is the celebration of the hopeless romantic fantasy, 5 Centimeters per Second is its grounded, anti-climactic counterpart in reality.\n\nThe visuals are great, as always, but its themes and message landed so strongly for me that it vastly overshadows any of my issues with the movie (mainly a boring part 2 that works in concept but was a chore to sit through and didn't land as strongly as it might have wanted to on an emotional level).\n\nThe way the movie presents the genuine relationship and romance between Takaki and Akari in their youth and how and to what extent that experience comes to bear on each of their trajectories feels... painfully real. There isn't much drama or over the top and outwardly intense reflections, confrontations, or reunions between our characters nor is there ever really a strong dramatic tilt to the events on screen. There's a quiet, gradual passing of time and progression through life that feels imperceptible in the moment but culminates in the two very different states we see Takaki and Akari in by the end of the movie. It's kind of cringe and cliche to say that this movie does kind of feel like it's ultimately saying \"don't cry because it's over, smile because it happened\"—and it's not exactly that—but idrc, it worked for me.\n\nThere's something about that final scene that sticks with me: it doesn't feel like it's saying to \"let go and move on\" exactly, and I like to think that it's rather Takaki changing his grip on his memories and what that experience he had means; like Akari, I think it signals a shift towards incorporating it rather than longing for, idealising it, or undermining it.",
+                rating: 5
             }
         ]
     },
@@ -197,7 +197,6 @@ export const sampleMedia = [
         year: 2016,
         cover: aSilentVoiceTheMovieCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2024-08-14",
         pinned: false,
         relatedWorks: [],
@@ -206,7 +205,8 @@ export const sampleMedia = [
                 date: "2024-08-14",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 5
             }
         ]
     },
@@ -217,7 +217,6 @@ export const sampleMedia = [
         year: 1988,
         cover: akiraCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-08-29",
         pinned: true,
         relatedWorks: [],
@@ -226,7 +225,8 @@ export const sampleMedia = [
                 date: "2026-08-29",
                 status: "finished",
                 label: null,
-                text: "\"good for health, bad for education.\"\n\neasily some of the purest audiovisual cocaine you can get."
+                text: "\"good for health, bad for education.\"\n\neasily some of the purest audiovisual cocaine you can get.",
+                rating: 4.5
             }
         ]
     },
@@ -237,7 +237,6 @@ export const sampleMedia = [
         year: 2018,
         cover: andhadhunCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2021-02-21",
         pinned: false,
         relatedWorks: [],
@@ -246,7 +245,8 @@ export const sampleMedia = [
                 date: "2021-02-21",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -257,7 +257,6 @@ export const sampleMedia = [
         year: 2015,
         cover: antManCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -266,7 +265,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -277,7 +277,6 @@ export const sampleMedia = [
         year: 2018,
         cover: antManAndTheWaspCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -286,7 +285,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -297,7 +297,6 @@ export const sampleMedia = [
         year: 2007,
         cover: atonementCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -306,7 +305,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -317,7 +317,6 @@ export const sampleMedia = [
         year: 2015,
         cover: avengersAgeOfUltronCover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -326,7 +325,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -337,7 +337,6 @@ export const sampleMedia = [
         year: 2019,
         cover: avengersEndgameCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2024-04-24",
         pinned: false,
         relatedWorks: [],
@@ -346,7 +345,8 @@ export const sampleMedia = [
                 date: "2024-04-24",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -357,7 +357,6 @@ export const sampleMedia = [
         year: 2018,
         cover: avengersInfinityWarCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2018-04-24",
         pinned: false,
         relatedWorks: [],
@@ -366,7 +365,8 @@ export const sampleMedia = [
                 date: "2018-04-24",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -377,7 +377,6 @@ export const sampleMedia = [
         year: 2022,
         cover: barbarianCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-09-12",
         pinned: false,
         relatedWorks: [],
@@ -386,7 +385,8 @@ export const sampleMedia = [
                 date: "2026-09-12",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -397,7 +397,6 @@ export const sampleMedia = [
         year: 2005,
         cover: batmanBeginsCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-08-18",
         pinned: false,
         relatedWorks: [],
@@ -406,7 +405,8 @@ export const sampleMedia = [
                 date: "2026-08-18",
                 status: "finished",
                 label: null,
-                text: "\"I don't know. I swear to God!\"\n\"SWEAR TO ME!\"\n\nBatman Begin."
+                text: "\"I don't know. I swear to God!\"\n\"SWEAR TO ME!\"\n\nBatman Begin.",
+                rating: 3.5
             }
         ]
     },
@@ -417,7 +417,6 @@ export const sampleMedia = [
         year: 1973,
         cover: belladonnaOfSadnessCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-03-25",
         pinned: false,
         relatedWorks: [],
@@ -426,7 +425,8 @@ export const sampleMedia = [
                 date: "2026-03-25",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -437,7 +437,6 @@ export const sampleMedia = [
         year: 2018,
         cover: blackPantherCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -446,7 +445,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -457,7 +457,6 @@ export const sampleMedia = [
         year: 2022,
         cover: blackPantherWakandaForeverCover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -466,7 +465,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -477,7 +477,6 @@ export const sampleMedia = [
         year: 1986,
         cover: blueVelvetCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-11-06",
         pinned: false,
         relatedWorks: [],
@@ -486,7 +485,8 @@ export const sampleMedia = [
                 date: "2026-11-06",
                 status: "finished",
                 label: null,
-                text: "\"I don't know if you're a detective or a pervert.\"\n\"Well, that's for me to know and you to find out\""
+                text: "\"I don't know if you're a detective or a pervert.\"\n\"Well, that's for me to know and you to find out\"",
+                rating: 3.5
             }
         ]
     },
@@ -497,7 +497,6 @@ export const sampleMedia = [
         year: 1992,
         cover: bramStokersDraculaCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-10-04",
         pinned: false,
         relatedWorks: [],
@@ -506,7 +505,8 @@ export const sampleMedia = [
                 date: "2026-10-04",
                 status: "finished",
                 label: null,
-                text: "Love, sex, and Keanu Reeves' British accent 😭"
+                text: "Love, sex, and Keanu Reeves' British accent 😭",
+                rating: 3.5
             }
         ]
     },
@@ -517,7 +517,6 @@ export const sampleMedia = [
         year: 2026,
         cover: buddyCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-08-28",
         pinned: false,
         relatedWorks: [],
@@ -526,7 +525,8 @@ export const sampleMedia = [
                 date: "2026-08-28",
                 status: "finished",
                 label: null,
-                text: "Ok, Buddy."
+                text: "Ok, Buddy.",
+                rating: 2
             }
         ]
     },
@@ -537,7 +537,6 @@ export const sampleMedia = [
         year: 2022,
         cover: bulletTrainCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2022-08-04",
         pinned: false,
         relatedWorks: [],
@@ -546,7 +545,8 @@ export const sampleMedia = [
                 date: "2022-08-04",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -557,7 +557,6 @@ export const sampleMedia = [
         year: 2016,
         cover: captainAmericaCivilWarCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -566,7 +565,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -577,7 +577,6 @@ export const sampleMedia = [
         year: 2011,
         cover: captainAmericaTheFirstAvengerCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -586,7 +585,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -597,7 +597,6 @@ export const sampleMedia = [
         year: 2014,
         cover: captainAmericaTheWinterSoldierCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -606,7 +605,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -617,7 +617,6 @@ export const sampleMedia = [
         year: 2019,
         cover: captainMarvelCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -626,7 +625,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -637,7 +637,6 @@ export const sampleMedia = [
         year: 2025,
         cover: chainsawManTheMovieRezeArcCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2025-10-23",
         pinned: false,
         relatedWorks: [],
@@ -646,7 +645,8 @@ export const sampleMedia = [
                 date: "2025-10-23",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -657,7 +657,6 @@ export const sampleMedia = [
         year: 2026,
         cover: clayfaceCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-11-01",
         pinned: false,
         relatedWorks: [],
@@ -666,7 +665,8 @@ export const sampleMedia = [
                 date: "2026-11-01",
                 status: "finished",
                 label: null,
-                text: "\"You take all your pain and humiliation and channel it into your work. You make something good out of something ugly.\"\n\nClayface manages to do that with both its literally and figuratively ugly aspects. The body horror and gore was great and managed to balance leaning into the Clayface of it all and presenting it cleverly enough for it to maintain immersion really well. I also really liked the well of emotional ugliness this movie draws from in terms of what motivates Matt and ultimately leads him to becoming the titular villain; I like that it's tragic in its own way, but by the end lines have been so far crossed there's no really debate.\n\nThey need to make a Hush movie next."
+                text: "\"You take all your pain and humiliation and channel it into your work. You make something good out of something ugly.\"\n\nClayface manages to do that with both its literally and figuratively ugly aspects. The body horror and gore was great and managed to balance leaning into the Clayface of it all and presenting it cleverly enough for it to maintain immersion really well. I also really liked the well of emotional ugliness this movie draws from in terms of what motivates Matt and ultimately leads him to becoming the titular villain; I like that it's tragic in its own way, but by the end lines have been so far crossed there's no really debate.\n\nThey need to make a Hush movie next.",
+                rating: 3.5
             }
         ]
     },
@@ -677,7 +677,6 @@ export const sampleMedia = [
         year: 2026,
         cover: colonyCover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-09-01",
         pinned: false,
         relatedWorks: [],
@@ -686,7 +685,8 @@ export const sampleMedia = [
                 date: "2026-09-01",
                 status: "finished",
                 label: null,
-                text: "The movie itself was enjoyable enough to watch and I don't regret the time I spent watching it (it had pretty solid presentation, I like how contorted and sporadic the movements of the zombies were, the zombies themselves were visually pretty cool (not gross and decaying but gross and... very fluid covered and intertwined)).\n\nThat being said, I feel like the movie itself felt a lot more like... ideas and loose commentary standing in for characters or genuinely compelling and engaging narrative. Characters felt very one dimensional and functional and even despite the cool twist on the whole zombie thing I wasn't left feeling much by the end.\n\nI feel like there's another universe where maybe the cast was whittled down, each person was more fleshed out, and the idea of the outsider was... I'm not even sure really. But all I know is that I have a feeling that there's another universe where that final scene on the road and the phone call plays and something about would've... hit. Stuck with me. Unfortunately this is not that universe."
+                text: "The movie itself was enjoyable enough to watch and I don't regret the time I spent watching it (it had pretty solid presentation, I like how contorted and sporadic the movements of the zombies were, the zombies themselves were visually pretty cool (not gross and decaying but gross and... very fluid covered and intertwined)).\n\nThat being said, I feel like the movie itself felt a lot more like... ideas and loose commentary standing in for characters or genuinely compelling and engaging narrative. Characters felt very one dimensional and functional and even despite the cool twist on the whole zombie thing I wasn't left feeling much by the end.\n\nI feel like there's another universe where maybe the cast was whittled down, each person was more fleshed out, and the idea of the outsider was... I'm not even sure really. But all I know is that I have a feeling that there's another universe where that final scene on the road and the phone call plays and something about would've... hit. Stuck with me. Unfortunately this is not that universe.",
+                rating: 2.5
             }
         ]
     },
@@ -697,7 +697,6 @@ export const sampleMedia = [
         year: 2010,
         cover: confessionsCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-09-25",
         pinned: false,
         relatedWorks: [],
@@ -706,7 +705,8 @@ export const sampleMedia = [
                 date: "2026-09-25",
                 status: "finished",
                 label: null,
-                text: "One of the coolest, clinical visual styles I've seen in a movie that frequently becomes just artsy enough to be interesting but not overly pretentious or even remotely abstract. And my God-- phenomenal soundtrack.\n\nWhile the first 30 minutes of the movie are truly a standout, I don't think the rest of the movie came close to that level of engagement or quality. It wasn't bad, but I feel like I appreciate the ideas of the story more deeply than the amount of actual feelings I had watching the story."
+                text: "One of the coolest, clinical visual styles I've seen in a movie that frequently becomes just artsy enough to be interesting but not overly pretentious or even remotely abstract. And my God-- phenomenal soundtrack.\n\nWhile the first 30 minutes of the movie are truly a standout, I don't think the rest of the movie came close to that level of engagement or quality. It wasn't bad, but I feel like I appreciate the ideas of the story more deeply than the amount of actual feelings I had watching the story.",
+                rating: 4
             }
         ]
     },
@@ -717,7 +717,6 @@ export const sampleMedia = [
         year: 2024,
         cover: deadpoolWolverineCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2024-07-25",
         pinned: false,
         relatedWorks: [],
@@ -726,7 +725,8 @@ export const sampleMedia = [
                 date: "2024-07-25",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -737,7 +737,6 @@ export const sampleMedia = [
         year: 2022,
         cover: decisionToLeaveCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-10-30",
         pinned: true,
         relatedWorks: [],
@@ -746,7 +745,8 @@ export const sampleMedia = [
                 date: "2026-10-30",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -757,7 +757,6 @@ export const sampleMedia = [
         year: 2025,
         cover: dhurandharCover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-07-06",
         pinned: false,
         relatedWorks: [],
@@ -766,7 +765,8 @@ export const sampleMedia = [
                 date: "2026-07-06",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -777,7 +777,6 @@ export const sampleMedia = [
         year: 2026,
         cover: dhurandharTheRevengeCover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-07-07",
         pinned: false,
         relatedWorks: [],
@@ -786,7 +785,8 @@ export const sampleMedia = [
                 date: "2026-07-07",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -797,7 +797,6 @@ export const sampleMedia = [
         year: 2026,
         cover: diggerCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-10-17",
         pinned: false,
         relatedWorks: [],
@@ -806,7 +805,8 @@ export const sampleMedia = [
                 date: "2026-10-17",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -817,7 +817,6 @@ export const sampleMedia = [
         year: 2016,
         cover: doctorStrangeCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -826,7 +825,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -837,7 +837,6 @@ export const sampleMedia = [
         year: 2022,
         cover: doctorStrangeInTheMultiverseOfMadnessCover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2022-05-18",
         pinned: false,
         relatedWorks: [],
@@ -846,7 +845,8 @@ export const sampleMedia = [
                 date: "2022-05-18",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -857,7 +857,6 @@ export const sampleMedia = [
         year: 2021,
         cover: duneCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-08-17",
         pinned: false,
         relatedWorks: [],
@@ -866,7 +865,8 @@ export const sampleMedia = [
                 date: "2026-08-17",
                 status: "finished",
                 label: null,
-                text: "A clinically good and technically great movie I can't help but think is cool. At the same time, I don't feel much, if anything, else towards it emotionally. Doesn't help that this movie is set up through and through. I do wish I watched this in IMAX or in theaters though..."
+                text: "A clinically good and technically great movie I can't help but think is cool. At the same time, I don't feel much, if anything, else towards it emotionally. Doesn't help that this movie is set up through and through. I do wish I watched this in IMAX or in theaters though...",
+                rating: 3.5
             }
         ]
     },
@@ -877,7 +877,6 @@ export const sampleMedia = [
         year: 2024,
         cover: dunePartTwoCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-08-17",
         pinned: false,
         relatedWorks: [],
@@ -886,7 +885,8 @@ export const sampleMedia = [
                 date: "2026-08-17",
                 status: "finished",
                 label: null,
-                text: "Definitely liked this one more than part one given that the scale of the story continues to increase while we also escape what feels like purely setup territory. That being said, like my feelings towards the book, I think I'm a lot more interested in the world and ideas of Dune than any of its characters or story. Never read Messiah though, so it/part three could change my mind..."
+                text: "Definitely liked this one more than part one given that the scale of the story continues to increase while we also escape what feels like purely setup territory. That being said, like my feelings towards the book, I think I'm a lot more interested in the world and ideas of Dune than any of its characters or story. Never read Messiah though, so it/part three could change my mind...",
+                rating: 3.5
             }
         ]
     },
@@ -897,7 +897,6 @@ export const sampleMedia = [
         year: 2004,
         cover: eternalSunshineOfTheSpotlessMindCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-08-23",
         pinned: false,
         relatedWorks: [],
@@ -906,7 +905,8 @@ export const sampleMedia = [
                 date: "2026-08-23",
                 status: "finished",
                 label: null,
-                text: "\"Okay.\"\n\n\"Okay.\""
+                text: "\"Okay.\"\n\n\"Okay.\"",
+                rating: 4.5
             }
         ]
     },
@@ -917,7 +917,6 @@ export const sampleMedia = [
         year: 2021,
         cover: eternalsCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -926,7 +925,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -937,7 +937,6 @@ export const sampleMedia = [
         year: 2022,
         cover: everythingEverywhereAllAtOnceCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2022-03-24",
         pinned: false,
         relatedWorks: [],
@@ -946,7 +945,8 @@ export const sampleMedia = [
                 date: "2022-03-24",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -957,7 +957,6 @@ export const sampleMedia = [
         year: 2013,
         cover: evilDeadCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-10-20",
         pinned: false,
         relatedWorks: [],
@@ -966,7 +965,8 @@ export const sampleMedia = [
                 date: "2026-10-20",
                 status: "finished",
                 label: null,
-                text: "It's pretty nasty, unflinching, and relentless. Me like."
+                text: "It's pretty nasty, unflinching, and relentless. Me like.",
+                rating: 3
             }
         ]
     },
@@ -977,7 +977,6 @@ export const sampleMedia = [
         year: 1999,
         cover: fightClubCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -986,7 +985,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 5
             }
         ]
     },
@@ -997,7 +997,6 @@ export const sampleMedia = [
         year: 1998,
         cover: followingCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-08-15",
         pinned: false,
         relatedWorks: [],
@@ -1006,7 +1005,8 @@ export const sampleMedia = [
                 date: "2026-08-15",
                 status: "finished",
                 label: null,
-                text: "so Nolan's like... always liked non-linear stories huh..."
+                text: "so Nolan's like... always liked non-linear stories huh...",
+                rating: 3
             }
         ]
     },
@@ -1017,7 +1017,6 @@ export const sampleMedia = [
         year: 2024,
         cover: furiosaAMadMaxSagaCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2024-06-01",
         pinned: false,
         relatedWorks: [],
@@ -1026,7 +1025,8 @@ export const sampleMedia = [
                 date: "2024-06-01",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1037,7 +1037,6 @@ export const sampleMedia = [
         year: 1995,
         cover: ghostInTheShellCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2025-02-08",
         pinned: false,
         relatedWorks: [],
@@ -1046,7 +1045,8 @@ export const sampleMedia = [
                 date: "2025-02-08",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1057,7 +1057,6 @@ export const sampleMedia = [
         year: 2024,
         cover: godzillaKongTheNewEmpireCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2024-05-13",
         pinned: false,
         relatedWorks: [],
@@ -1066,7 +1065,8 @@ export const sampleMedia = [
                 date: "2024-05-13",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -1077,7 +1077,6 @@ export const sampleMedia = [
         year: 2014,
         cover: guardiansOfTheGalaxyCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -1086,7 +1085,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1097,7 +1097,6 @@ export const sampleMedia = [
         year: 2017,
         cover: guardiansOfTheGalaxyVol2Cover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -1106,7 +1105,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1117,7 +1117,6 @@ export const sampleMedia = [
         year: 1985,
         cover: guineaPigPart2FlowerOfFleshAndBloodCover,
         coverSource: "TMDB",
-        rating: 1,
         createdOn: "2026-07-30",
         pinned: false,
         relatedWorks: [],
@@ -1126,7 +1125,8 @@ export const sampleMedia = [
                 date: "2026-07-30",
                 status: "finished",
                 label: null,
-                text: "some things just... don't need to be made... the sequel...\n\n(credit where credit is due, though: the makeup and special effects are disgustingly impressive)"
+                text: "some things just... don't need to be made... the sequel...\n\n(credit where credit is due, though: the makeup and special effects are disgustingly impressive)",
+                rating: 1
             }
         ]
     },
@@ -1137,7 +1137,6 @@ export const sampleMedia = [
         year: 1985,
         cover: guineaPigDevilsExperimentCover,
         coverSource: "TMDB",
-        rating: 0.5,
         createdOn: "2026-07-30",
         pinned: false,
         relatedWorks: [],
@@ -1146,7 +1145,8 @@ export const sampleMedia = [
                 date: "2026-07-30",
                 status: "finished",
                 label: null,
-                text: "some things just... don't need to be made..."
+                text: "some things just... don't need to be made...",
+                rating: 0.5
             }
         ]
     },
@@ -1157,7 +1157,6 @@ export const sampleMedia = [
         year: 2026,
         cover: hopeCover,
         coverSource: "TMDB",
-        rating: 1.5,
         createdOn: "2026-09-15",
         pinned: false,
         relatedWorks: [],
@@ -1166,7 +1165,8 @@ export const sampleMedia = [
                 date: "2026-09-15",
                 status: "finished",
                 label: null,
-                text: "I went in with Hope. After an hour I was starting to lose Hope. After two hours I had already lost Hope. And in those last 40 minutes all I could do was Hope the movie was over.\n\nI think, somewhat fittingly actually, the last time I felt like walking out of a movie was Transformers the Last Knight. That is until today. While there is stuff to like in this movie, certainly more than the Last Knight, there is so much that I either dislike or feel just did not work together to really result in any real cohesive experience or warrant the 160 minute runtime...\n\nThe biggest praise I can give to this movie is that for the first 30 minutes to an hour of the movie, I think it was able to balance a decent amount of set up and overall tension really well. I actually really, really liked most of everything before the actual reveal of the monster. I think it was really interesting watching this incompetent, scared chief kind of fumble around and follow the trail of this rampaging beast and wading through the carnage in its path while always being a more than a few feet away because of his flaws; to me it felt like he was as much the source of his inability to confront the monster as it was the plot's. I also thought it was really setting him up for more of a personal growth arc than it really did-- there are some things that happen as a result of his tenor that I think really could've had more of a bearing on what happens later in terms of his character (it kind of did in theory but I didn't feel the weight of it).\n\nI also did like the nature of the carnage, destruction, and violence in this movie-- there was something about the framing of it and the perspective with which we saw a lot of it (usually from the POV of the Chief who is too far out and only experiencing the chaos second hand until a certain point) and the way that it was both more brutal than I was expecting without being... overly gory in the way violence and carnage can be depicted in movies? It felt kind of nonchalant in a way, but I think it added to its effect.\n\nI also do think that for the most part I really enjoyed the fast and frenetic nature of the action sequences (barring the CGI and the repetition and stagnation that plagues the movie following the first hour or so).\n\nAll that being said, I don't know what I watched and I also don't think the movie really knew what it was trying to be either. There are ideas here and there, there are some through lines, and there is some gesturing at \"deeper\" ideas or messages brought about throughout the events of the movie-- but nothing felt cohesive whatsoever beyond the presentation of its action spectacle. And I don't event think it really did that very well after a certain point.\n\nMy biggest issue I think has to come down to not just this movie feeling like it has a paper-thin plot that doesn't really go anywhere until the end where it feels like we take a left turn into presumably sequel setup, but that it kind of failed to be truly engaging action spectacle for more than half of the movie. I think the earlier comparison to Michael Bay is somewhat apt because this movie was kind of funny at times and had some fun, entertaining, explosive entertainment (in the best sense)-- it's just at a certain point I felt like the movie exhausted all it's ideas about what to do and kind of felt like it pulled the same plays over and over again. After a certain point I was kind of done with watching people in a speeding car or on a horse having to reverse and do u-turns while someone shoots guns and grenades out the window or on horseback while being chased by some comedic fast entity rendered straight out of the PS3 era. I also could never tell if this movie was trying to be serious or be parody at points because sometimes things happen where the movie feels like its taking itself genuinely seriously but then becomes funny because like... wtf lmao. Without spoiling, three scenes come to mind that exemplify this: holes and toilet paper, \"gotcha\", and what I assume is a road sign...\n\nBut yeah... Maybe if this movie was way shorter and just committed to being pure action spectacle I would've liked it a lot more, but for what it is... I'm sorry, wasn't for me unfortunately."
+                text: "I went in with Hope. After an hour I was starting to lose Hope. After two hours I had already lost Hope. And in those last 40 minutes all I could do was Hope the movie was over.\n\nI think, somewhat fittingly actually, the last time I felt like walking out of a movie was Transformers the Last Knight. That is until today. While there is stuff to like in this movie, certainly more than the Last Knight, there is so much that I either dislike or feel just did not work together to really result in any real cohesive experience or warrant the 160 minute runtime...\n\nThe biggest praise I can give to this movie is that for the first 30 minutes to an hour of the movie, I think it was able to balance a decent amount of set up and overall tension really well. I actually really, really liked most of everything before the actual reveal of the monster. I think it was really interesting watching this incompetent, scared chief kind of fumble around and follow the trail of this rampaging beast and wading through the carnage in its path while always being a more than a few feet away because of his flaws; to me it felt like he was as much the source of his inability to confront the monster as it was the plot's. I also thought it was really setting him up for more of a personal growth arc than it really did-- there are some things that happen as a result of his tenor that I think really could've had more of a bearing on what happens later in terms of his character (it kind of did in theory but I didn't feel the weight of it).\n\nI also did like the nature of the carnage, destruction, and violence in this movie-- there was something about the framing of it and the perspective with which we saw a lot of it (usually from the POV of the Chief who is too far out and only experiencing the chaos second hand until a certain point) and the way that it was both more brutal than I was expecting without being... overly gory in the way violence and carnage can be depicted in movies? It felt kind of nonchalant in a way, but I think it added to its effect.\n\nI also do think that for the most part I really enjoyed the fast and frenetic nature of the action sequences (barring the CGI and the repetition and stagnation that plagues the movie following the first hour or so).\n\nAll that being said, I don't know what I watched and I also don't think the movie really knew what it was trying to be either. There are ideas here and there, there are some through lines, and there is some gesturing at \"deeper\" ideas or messages brought about throughout the events of the movie-- but nothing felt cohesive whatsoever beyond the presentation of its action spectacle. And I don't event think it really did that very well after a certain point.\n\nMy biggest issue I think has to come down to not just this movie feeling like it has a paper-thin plot that doesn't really go anywhere until the end where it feels like we take a left turn into presumably sequel setup, but that it kind of failed to be truly engaging action spectacle for more than half of the movie. I think the earlier comparison to Michael Bay is somewhat apt because this movie was kind of funny at times and had some fun, entertaining, explosive entertainment (in the best sense)-- it's just at a certain point I felt like the movie exhausted all it's ideas about what to do and kind of felt like it pulled the same plays over and over again. After a certain point I was kind of done with watching people in a speeding car or on a horse having to reverse and do u-turns while someone shoots guns and grenades out the window or on horseback while being chased by some comedic fast entity rendered straight out of the PS3 era. I also could never tell if this movie was trying to be serious or be parody at points because sometimes things happen where the movie feels like its taking itself genuinely seriously but then becomes funny because like... wtf lmao. Without spoiling, three scenes come to mind that exemplify this: holes and toilet paper, \"gotcha\", and what I assume is a road sign...\n\nBut yeah... Maybe if this movie was way shorter and just committed to being pure action spectacle I would've liked it a lot more, but for what it is... I'm sorry, wasn't for me unfortunately.",
+                rating: 1.5
             }
         ]
     },
@@ -1177,7 +1177,6 @@ export const sampleMedia = [
         year: 2004,
         cover: howlsMovingCastleCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-17",
         pinned: false,
         relatedWorks: [],
@@ -1186,7 +1185,8 @@ export const sampleMedia = [
                 date: "2026-05-17",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1197,7 +1197,6 @@ export const sampleMedia = [
         year: 1994,
         cover: inTheMouthOfMadnessCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-10-10",
         pinned: false,
         relatedWorks: [],
@@ -1206,7 +1205,8 @@ export const sampleMedia = [
                 date: "2026-10-10",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1217,7 +1217,6 @@ export const sampleMedia = [
         year: 2026,
         cover: insidiousOutOfTheFurtherCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-08-25",
         pinned: false,
         relatedWorks: [],
@@ -1226,7 +1225,8 @@ export const sampleMedia = [
                 date: "2026-08-25",
                 status: "finished",
                 label: null,
-                text: "I think if you're making a horror movie whose scares are predominantly jump scares and I'M spending most of my time by the end of the movie chuckling or tilting my head then something went wrong.\n\nI feel like the movie started off decently strong, I think the early dream sequences were tense and on the whole the movie visually looked pretty solid (nothing extraordinary but nothing looked terrible or out of place top the best of my memory). I think the movie peaked around the pillow fort and dentist scenes, but besides that... yikes.\n\nI haven't seen any of the other insidious movies so maybe this is par for the course, but at some point in the movie it felt like a switch flipped and it went from a genuinely tense and creepy movie to just... an at times goofy kind of over the top grand plot. Like ultimately the core of the story is a personal one, and I feel like it works in theory, but I think the way the main antagonist was written and integrated in the story really reduced the impact and appeal of the personal story for me. It took it from being a potentially interesting centerpiece to a somewhat generic byproduct.\n\nNot a terrible watch, and in its own way its enjoyable at times, but really left feeling underwhelmed. It felt fine as is but disposable in the sense that I don't think anything in this movie did or will stick with me in the way that some of horror's best have been able to; felt like a rollercoaster where once you're off it's done and that's it-- like it's kind of bad but I didn't mind that I spent time watching it."
+                text: "I think if you're making a horror movie whose scares are predominantly jump scares and I'M spending most of my time by the end of the movie chuckling or tilting my head then something went wrong.\n\nI feel like the movie started off decently strong, I think the early dream sequences were tense and on the whole the movie visually looked pretty solid (nothing extraordinary but nothing looked terrible or out of place top the best of my memory). I think the movie peaked around the pillow fort and dentist scenes, but besides that... yikes.\n\nI haven't seen any of the other insidious movies so maybe this is par for the course, but at some point in the movie it felt like a switch flipped and it went from a genuinely tense and creepy movie to just... an at times goofy kind of over the top grand plot. Like ultimately the core of the story is a personal one, and I feel like it works in theory, but I think the way the main antagonist was written and integrated in the story really reduced the impact and appeal of the personal story for me. It took it from being a potentially interesting centerpiece to a somewhat generic byproduct.\n\nNot a terrible watch, and in its own way its enjoyable at times, but really left feeling underwhelmed. It felt fine as is but disposable in the sense that I don't think anything in this movie did or will stick with me in the way that some of horror's best have been able to; felt like a rollercoaster where once you're off it's done and that's it-- like it's kind of bad but I didn't mind that I spent time watching it.",
+                rating: 2
             }
         ]
     },
@@ -1237,7 +1237,6 @@ export const sampleMedia = [
         year: 2002,
         cover: insomniaCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-08-17",
         pinned: false,
         relatedWorks: [],
@@ -1246,7 +1245,8 @@ export const sampleMedia = [
                 date: "2026-08-17",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -1257,7 +1257,6 @@ export const sampleMedia = [
         year: 2014,
         cover: interstellarCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-05-30",
         pinned: false,
         relatedWorks: [],
@@ -1266,7 +1265,8 @@ export const sampleMedia = [
                 date: "2026-05-30",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1277,7 +1277,6 @@ export const sampleMedia = [
         year: 2026,
         cover: ironLungCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-02-07",
         pinned: false,
         relatedWorks: [],
@@ -1286,7 +1285,8 @@ export const sampleMedia = [
                 date: "2026-02-07",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -1297,7 +1297,6 @@ export const sampleMedia = [
         year: 2008,
         cover: ironManCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -1306,7 +1305,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1317,7 +1317,6 @@ export const sampleMedia = [
         year: 2010,
         cover: ironMan2Cover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -1326,7 +1325,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -1337,7 +1337,6 @@ export const sampleMedia = [
         year: 2013,
         cover: ironMan3Cover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -1346,7 +1345,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -1357,7 +1357,6 @@ export const sampleMedia = [
         year: 2014,
         cover: johnWickCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-07-11",
         pinned: false,
         relatedWorks: [],
@@ -1366,7 +1365,8 @@ export const sampleMedia = [
                 date: "2026-07-11",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -1377,7 +1377,6 @@ export const sampleMedia = [
         year: 2017,
         cover: johnWickChapter2Cover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-07-11",
         pinned: false,
         relatedWorks: [],
@@ -1386,7 +1385,8 @@ export const sampleMedia = [
                 date: "2026-07-11",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1397,7 +1397,6 @@ export const sampleMedia = [
         year: 2019,
         cover: johnWickChapter3ParabellumCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-07-11",
         pinned: false,
         relatedWorks: [],
@@ -1406,7 +1405,8 @@ export const sampleMedia = [
                 date: "2026-07-11",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1417,7 +1417,6 @@ export const sampleMedia = [
         year: 2023,
         cover: johnWickChapter4Cover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-07-11",
         pinned: true,
         relatedWorks: [],
@@ -1426,7 +1425,8 @@ export const sampleMedia = [
                 date: "2026-07-11",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -1437,7 +1437,6 @@ export const sampleMedia = [
         year: 2000,
         cover: josephKingOfDreamsCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-10-04",
         pinned: false,
         relatedWorks: [],
@@ -1446,7 +1445,8 @@ export const sampleMedia = [
                 date: "2026-10-04",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -1457,7 +1457,6 @@ export const sampleMedia = [
         year: 2022,
         cover: lightingUpTheStarsCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-07-04",
         pinned: false,
         relatedWorks: [],
@@ -1466,7 +1465,8 @@ export const sampleMedia = [
                 date: "2026-07-04",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1477,7 +1477,6 @@ export const sampleMedia = [
         year: 2024,
         cover: lookBackCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2024-08-17",
         pinned: true,
         relatedWorks: [],
@@ -1486,7 +1485,8 @@ export const sampleMedia = [
                 date: "2024-08-17",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 5
             }
         ]
     },
@@ -1497,7 +1497,6 @@ export const sampleMedia = [
         year: 1997,
         cover: lostHighwayCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-08-19",
         pinned: true,
         relatedWorks: [],
@@ -1506,7 +1505,8 @@ export const sampleMedia = [
                 date: "2026-08-19",
                 status: "finished",
                 label: null,
-                text: "\"I like to remember things my own way. How I remembered them, not necessarily the way they happened.\"\n\nLowk if I didn't need to use google to fit some of the pieces I was missing I would've rated it higher-- alas, the brain is small and the skill is an issue.\n\nThat being said, wow. I really, really liked this movie.\n\nIn my restless dreams, I will see this movie..."
+                text: "\"I like to remember things my own way. How I remembered them, not necessarily the way they happened.\"\n\nLowk if I didn't need to use google to fit some of the pieces I was missing I would've rated it higher-- alas, the brain is small and the skill is an issue.\n\nThat being said, wow. I really, really liked this movie.\n\nIn my restless dreams, I will see this movie...",
+                rating: 4.5
             }
         ]
     },
@@ -1517,7 +1517,6 @@ export const sampleMedia = [
         year: 2015,
         cover: madMaxFuryRoadCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2024-06-02",
         pinned: false,
         relatedWorks: [],
@@ -1526,7 +1525,8 @@ export const sampleMedia = [
                 date: "2024-06-02",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1537,7 +1537,6 @@ export const sampleMedia = [
         year: 2000,
         cover: mementoCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2025-02-08",
         pinned: true,
         relatedWorks: [],
@@ -1546,7 +1545,8 @@ export const sampleMedia = [
                 date: "2026-08-16",
                 status: "finished",
                 label: null,
-                text: "\"Okay, so what am I doing? Oh, I’m chasing this guy. No. He’s chasing me.\"\n\nabsolute cinema."
+                text: "\"Okay, so what am I doing? Oh, I’m chasing this guy. No. He’s chasing me.\"\n\nabsolute cinema.",
+                rating: 5
             }
         ]
     },
@@ -1557,7 +1557,6 @@ export const sampleMedia = [
         year: 1988,
         cover: menBehindTheSunCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-09-26",
         pinned: false,
         relatedWorks: [],
@@ -1566,7 +1565,8 @@ export const sampleMedia = [
                 date: "2026-09-26",
                 status: "finished",
                 label: null,
-                text: "I've never felt so mixed about a movie in this particular way before... The content on display is brutal, disgusting, and reprehensibly cruel-- but that's the point. The grotesque and graphic depictions of things like the depressurization chamber and the live autopsy are things that in a slasher or splatter horror might have elicited awe and appreciation *because of* its depravity and gratuitousness (e.g. the Terrifier series), but here? Here it's just... haunting. There's a blatant disregard for human life, or in the eyes of the perpetrators non-human lives, material to be used, Maruta, on display that borders on being absurdly, comedically, and distastefully cruel only for a text cut-in to appear telling you who you're watching being desecrated and once again reels you, the viewer, back to what you're seeing.\n\nI think my hesitation lies in at what point the line between education and entertainment is blurred. I feel that film and fiction in general can, and sometimes should, take advantage of showing the cruel, the heinous, and the extreme, but as it stands I feel there's a cost associated with doing so: can you use the \"dark arts\" to an extent that justifies the extent to which it was used. Something like A Serbian film was created with the aim of being a critique of the exploitation of the population of a post-war Serbia but the means by which it tried to achieve it were so extreme and so depraved that ultimately any intent it had was overshadowed by the sheer shock and trauma depicted on screen; any commentary, imo, was relegated to having to be retroactively explanatory instead of proactively constructed and conveyed. Men Behind the Sun rides uncomfortably close to the line separating education and entertainment and I still don't know which side I lean towards.\n\nMy discomfort also largely stems from the ethics behind the production and creation of this movie. I've only done cursory searches but uncertainty regarding the cat scene and the ethics surrounding the use of real cadavers have put me off being able to feel like this movie was \"worth it\" even if I were to assume the most good faith interpretation of its production (e.g. cat not harmed). There's just a tension and distasteful irony that I find in using cadavers and explicitly showing all of this cruelty and brutality in gory detail to this extent that I feel in a way just... mirrors this blatant use of people the film depicts and critiques except for what almost feels like spectacle. Again, I struggle to explain what it is exactly, but there's an imbalance between the extent and amount of the graphic content the movie depicted that doesn't justify the means by which they achieved it (which I think is also not helped by the way one of its poster literally feature and center the child autopsy scene)."
+                text: "I've never felt so mixed about a movie in this particular way before... The content on display is brutal, disgusting, and reprehensibly cruel-- but that's the point. The grotesque and graphic depictions of things like the depressurization chamber and the live autopsy are things that in a slasher or splatter horror might have elicited awe and appreciation *because of* its depravity and gratuitousness (e.g. the Terrifier series), but here? Here it's just... haunting. There's a blatant disregard for human life, or in the eyes of the perpetrators non-human lives, material to be used, Maruta, on display that borders on being absurdly, comedically, and distastefully cruel only for a text cut-in to appear telling you who you're watching being desecrated and once again reels you, the viewer, back to what you're seeing.\n\nI think my hesitation lies in at what point the line between education and entertainment is blurred. I feel that film and fiction in general can, and sometimes should, take advantage of showing the cruel, the heinous, and the extreme, but as it stands I feel there's a cost associated with doing so: can you use the \"dark arts\" to an extent that justifies the extent to which it was used. Something like A Serbian film was created with the aim of being a critique of the exploitation of the population of a post-war Serbia but the means by which it tried to achieve it were so extreme and so depraved that ultimately any intent it had was overshadowed by the sheer shock and trauma depicted on screen; any commentary, imo, was relegated to having to be retroactively explanatory instead of proactively constructed and conveyed. Men Behind the Sun rides uncomfortably close to the line separating education and entertainment and I still don't know which side I lean towards.\n\nMy discomfort also largely stems from the ethics behind the production and creation of this movie. I've only done cursory searches but uncertainty regarding the cat scene and the ethics surrounding the use of real cadavers have put me off being able to feel like this movie was \"worth it\" even if I were to assume the most good faith interpretation of its production (e.g. cat not harmed). There's just a tension and distasteful irony that I find in using cadavers and explicitly showing all of this cruelty and brutality in gory detail to this extent that I feel in a way just... mirrors this blatant use of people the film depicts and critiques except for what almost feels like spectacle. Again, I struggle to explain what it is exactly, but there's an imbalance between the extent and amount of the graphic content the movie depicted that doesn't justify the means by which they achieved it (which I think is also not helped by the way one of its poster literally feature and center the child autopsy scene).",
+                rating: 3
             }
         ]
     },
@@ -1577,7 +1577,6 @@ export const sampleMedia = [
         year: 2019,
         cover: midsommarCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-10-23",
         pinned: false,
         relatedWorks: [],
@@ -1586,7 +1585,8 @@ export const sampleMedia = [
                 date: "2026-10-23",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1597,7 +1597,6 @@ export const sampleMedia = [
         year: 2024,
         cover: monkeyManCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2024-04-06",
         pinned: false,
         relatedWorks: [],
@@ -1606,7 +1605,8 @@ export const sampleMedia = [
                 date: "2024-04-06",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1617,7 +1617,6 @@ export const sampleMedia = [
         year: 1997,
         cover: neonGenesisEvangelionTheEndOfEvangelionCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2024-03-17",
         pinned: false,
         relatedWorks: [],
@@ -1626,7 +1625,8 @@ export const sampleMedia = [
                 date: "2024-03-17",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -1637,7 +1637,6 @@ export const sampleMedia = [
         year: 2021,
         cover: nobodyCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -1646,7 +1645,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -1657,7 +1657,6 @@ export const sampleMedia = [
         year: 2024,
         cover: nosferatuCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2025-01-30",
         pinned: false,
         relatedWorks: [],
@@ -1666,7 +1665,8 @@ export const sampleMedia = [
                 date: "2025-01-30",
                 status: "finished",
                 label: null,
-                text: "I really, really liked the visuals, art direction, and the presentation overall-- it's a gothic horror slam dunk imo. Lily-Rose Depp was kind of a standout given the range she had to act out for the role and Bill Skarsgard as Nosferatu was great as this tense, omnipresent malicious entity-- but I feel like that's also as much to do with costume design and art direction as it is him."
+                text: "I really, really liked the visuals, art direction, and the presentation overall-- it's a gothic horror slam dunk imo. Lily-Rose Depp was kind of a standout given the range she had to act out for the role and Bill Skarsgard as Nosferatu was great as this tense, omnipresent malicious entity-- but I feel like that's also as much to do with costume design and art direction as it is him.",
+                rating: 3.5
             }
         ]
     },
@@ -1677,7 +1677,6 @@ export const sampleMedia = [
         year: 2025,
         cover: obsessionCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-07-21",
         pinned: false,
         relatedWorks: [],
@@ -1686,7 +1685,8 @@ export const sampleMedia = [
                 date: "2026-07-21",
                 status: "finished",
                 label: null,
-                text: "I think my favourite thing about this movie is how all its elements come together to form a viscerally tense and uncomfortable experience for what feels like its entire runtime.\n\nI think most aspects of the movie were great. The soundtrack is synthy and hauntingly beautiful, which serves as great tonal contrast to the reality of the situation. The frequently intimate camera work combined with great use of lighting creating a persistently off-putting feeling and sense of dread. The acting from Inde Navarrette that reeeeeeally worked for me personally (I think she captures the horror of Nikki's experience and can transform the energy of a scene on a dime; I can understand it feeling over the top, but I found it landed pretty well for me personally).\n\nOn top of that, I love body horror and have a pretty high gore threshold, but Obsession used violence and gore in such a way that when something happens it hits with full impact (a combination of being explicit enough in content without overdoing or overusing it and lingering on things long enough for it to register, and maybe even a little longer so that it uncomfortably sinks in, but never long enough to outstay its welcome nor short enough to not be taken in).\n\nI think on a personal level, I wish the movie leaned more into psychological drama/horror than it actually did. My main takeaways from the movie were its focus on idealisation and on the horror of a lack of personal agency. I feel like the main idea the movie was concerned with exploring the detrimental effects of overidealisation of another person and the way in which (ever changing) idea or ideal view of a person or thing strips them of any real personhood and into something determined by and solely for the self-satisfaction of another. This is reinforced by what I took to be the main experiential focus (the what or who, if anyone or anything, am I supposed to feel and see through?): the loss of agency, the eradication of personhood, and the--literal and figurative--use of Nikki as an object.\n\nI think on their own these ideas are compelling and are touched upon throughout the course of the movie, but I never got the sense that there was a truly cohesive, overarching thematic throughline that stuck with or imprinted itself onto me. I think Bear and Nikki both represent socially and culturally relevant perspectives and are ripe as subjects for discussion and commentary, but feel like they occupy two broadly separate ideas instead of two sides of the same idea. This is probably just a skill issue, but if we are to take Bear and Nikki as depicting some analogous real, social experience (e.g. very reductively the \"nice guy\" and a trapped partner), I fail to see how Bear and Nikki serve to work together as an analogue to some singular, real-world dynamic. I can see Bears existing in the real world, I can see Nikkis existing in the real world, I don't see how a Bear and a Nikki get together and have a dynamic that is reflected and explored in the movie as a singular object of focus, rather than two separate ideas. Or maybe it would be more accurate to say I can \"see\" the archetype Bear embodies, but I don't see how a Bear can induce the specific type of experience Nikki has in the movie? As such, I am left a little confused about what, if anything, the movie might be trying to say about the interaction between these two characters when taken more broadly.\n\nAll that being said, the movie doesn't need to have some some great compelling and overarching thematic message or commentary, I just personally like that and feel like Obsession tells a story that could, in another reality, have done so. It's ultimately a great watch, one of the most unsettling and tense movie experiences I've had in a while (last one I can think of that is kind of similar is Sinister)."
+                text: "I think my favourite thing about this movie is how all its elements come together to form a viscerally tense and uncomfortable experience for what feels like its entire runtime.\n\nI think most aspects of the movie were great. The soundtrack is synthy and hauntingly beautiful, which serves as great tonal contrast to the reality of the situation. The frequently intimate camera work combined with great use of lighting creating a persistently off-putting feeling and sense of dread. The acting from Inde Navarrette that reeeeeeally worked for me personally (I think she captures the horror of Nikki's experience and can transform the energy of a scene on a dime; I can understand it feeling over the top, but I found it landed pretty well for me personally).\n\nOn top of that, I love body horror and have a pretty high gore threshold, but Obsession used violence and gore in such a way that when something happens it hits with full impact (a combination of being explicit enough in content without overdoing or overusing it and lingering on things long enough for it to register, and maybe even a little longer so that it uncomfortably sinks in, but never long enough to outstay its welcome nor short enough to not be taken in).\n\nI think on a personal level, I wish the movie leaned more into psychological drama/horror than it actually did. My main takeaways from the movie were its focus on idealisation and on the horror of a lack of personal agency. I feel like the main idea the movie was concerned with exploring the detrimental effects of overidealisation of another person and the way in which (ever changing) idea or ideal view of a person or thing strips them of any real personhood and into something determined by and solely for the self-satisfaction of another. This is reinforced by what I took to be the main experiential focus (the what or who, if anyone or anything, am I supposed to feel and see through?): the loss of agency, the eradication of personhood, and the--literal and figurative--use of Nikki as an object.\n\nI think on their own these ideas are compelling and are touched upon throughout the course of the movie, but I never got the sense that there was a truly cohesive, overarching thematic throughline that stuck with or imprinted itself onto me. I think Bear and Nikki both represent socially and culturally relevant perspectives and are ripe as subjects for discussion and commentary, but feel like they occupy two broadly separate ideas instead of two sides of the same idea. This is probably just a skill issue, but if we are to take Bear and Nikki as depicting some analogous real, social experience (e.g. very reductively the \"nice guy\" and a trapped partner), I fail to see how Bear and Nikki serve to work together as an analogue to some singular, real-world dynamic. I can see Bears existing in the real world, I can see Nikkis existing in the real world, I don't see how a Bear and a Nikki get together and have a dynamic that is reflected and explored in the movie as a singular object of focus, rather than two separate ideas. Or maybe it would be more accurate to say I can \"see\" the archetype Bear embodies, but I don't see how a Bear can induce the specific type of experience Nikki has in the movie? As such, I am left a little confused about what, if anything, the movie might be trying to say about the interaction between these two characters when taken more broadly.\n\nAll that being said, the movie doesn't need to have some some great compelling and overarching thematic message or commentary, I just personally like that and feel like Obsession tells a story that could, in another reality, have done so. It's ultimately a great watch, one of the most unsettling and tense movie experiences I've had in a while (last one I can think of that is kind of similar is Sinister).",
+                rating: 4.5
             }
         ]
     },
@@ -1697,7 +1697,6 @@ export const sampleMedia = [
         year: 2003,
         cover: oldboyCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2024-01-06",
         pinned: false,
         relatedWorks: [],
@@ -1706,7 +1705,8 @@ export const sampleMedia = [
                 date: "2024-01-06",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1717,7 +1717,6 @@ export const sampleMedia = [
         year: 2026,
         cover: onslaughtCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-09-08",
         pinned: false,
         relatedWorks: [],
@@ -1726,7 +1725,8 @@ export const sampleMedia = [
                 date: "2026-09-08",
                 status: "finished",
                 label: null,
-                text: "It had a pretty limp second half, but I pissed, shit, and came during that title card sequence...\n\nI think overall while I genuinely did enjoy my time with the movie (thoroughly at times, even), I came away feeling that the movie never really managed to go beyond what I took to be its obvious love for old action and horror slasher movies* and ultimately felt like it took those as a template and transplanted it to the present day without really... doing much else with it.\n\nThat isn't even really to say it needed to do anything new or unique or subversive, I just don't think the movie even really fully committed to or awed me with how it even presented said template-- I think this might just come down to personal preference and bias, but I wish they took the vibe of the first 20-30 minutes of the movie (psychedelic title sequence, punchy electronica, feet-licking Nazi scientist and all) and RAN with it; and if not that, if they were dead set on the direction and focus of what the remainder of the movie was, I wish it was... more stylish? more creative? more extreme? more visceral? or... something? I feel like it just didn't fully land for me personally.\n\n* as someone who is NOT super well versed or experienced with them beyond some of the notable ones-- make with that what you will.\n\nI think the strongest parts of this movie were definitely its soundtrack (God I love electronic and synthwave osts) and its... energy...? Especially the first half— I was so locked in and really enjoying what felt like a kind of stupid and weird love child between Hotline Miami and modern day Wolfenstein, but along the way the *vibe* kind of shifted in a way that I feel shifted towards paying tribute and homage to old action and horror slasher movies (Texas Chain Saw Massacre and Halloween especially) at the expense of the... Goofy, cool, stylish S A U C E of the first half. Like, super soldiers hell-bent on aura farming and murdering civilians is cool and all, but I was digging absurdity of the feet-licking Nazi scientist putting out cigarettes inside patients during open brain surgery and listening to a German(?) rendition of Paint It Black and wish there was more...\n\nI also think the supporting cast was pretty entertaining. They were kind of threadbare but they didn't really need depth or elaborate backstories and I think they were fun. Not really sure about the... psychic detective (and the scene he was introduced in) though... I'm honestly not even sure why he was in the movie beyond... world building...? I guess...?\n\nAll in all it was a fun watch, I enjoyed it, and I think most of my complaints stem from liking it enough to actually wish that it was something even more than what it was."
+                text: "It had a pretty limp second half, but I pissed, shit, and came during that title card sequence...\n\nI think overall while I genuinely did enjoy my time with the movie (thoroughly at times, even), I came away feeling that the movie never really managed to go beyond what I took to be its obvious love for old action and horror slasher movies* and ultimately felt like it took those as a template and transplanted it to the present day without really... doing much else with it.\n\nThat isn't even really to say it needed to do anything new or unique or subversive, I just don't think the movie even really fully committed to or awed me with how it even presented said template-- I think this might just come down to personal preference and bias, but I wish they took the vibe of the first 20-30 minutes of the movie (psychedelic title sequence, punchy electronica, feet-licking Nazi scientist and all) and RAN with it; and if not that, if they were dead set on the direction and focus of what the remainder of the movie was, I wish it was... more stylish? more creative? more extreme? more visceral? or... something? I feel like it just didn't fully land for me personally.\n\n* as someone who is NOT super well versed or experienced with them beyond some of the notable ones-- make with that what you will.\n\nI think the strongest parts of this movie were definitely its soundtrack (God I love electronic and synthwave osts) and its... energy...? Especially the first half— I was so locked in and really enjoying what felt like a kind of stupid and weird love child between Hotline Miami and modern day Wolfenstein, but along the way the *vibe* kind of shifted in a way that I feel shifted towards paying tribute and homage to old action and horror slasher movies (Texas Chain Saw Massacre and Halloween especially) at the expense of the... Goofy, cool, stylish S A U C E of the first half. Like, super soldiers hell-bent on aura farming and murdering civilians is cool and all, but I was digging absurdity of the feet-licking Nazi scientist putting out cigarettes inside patients during open brain surgery and listening to a German(?) rendition of Paint It Black and wish there was more...\n\nI also think the supporting cast was pretty entertaining. They were kind of threadbare but they didn't really need depth or elaborate backstories and I think they were fun. Not really sure about the... psychic detective (and the scene he was introduced in) though... I'm honestly not even sure why he was in the movie beyond... world building...? I guess...?\n\nAll in all it was a fun watch, I enjoyed it, and I think most of my complaints stem from liking it enough to actually wish that it was something even more than what it was.",
+                rating: 3
             }
         ]
     },
@@ -1737,7 +1737,6 @@ export const sampleMedia = [
         year: 2020,
         cover: onwardCover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-07-28",
         pinned: false,
         relatedWorks: [],
@@ -1746,7 +1745,8 @@ export const sampleMedia = [
                 date: "2026-07-28",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -1757,7 +1757,6 @@ export const sampleMedia = [
         year: 2023,
         cover: oppenheimerCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2023-07-20",
         pinned: false,
         relatedWorks: [],
@@ -1766,7 +1765,8 @@ export const sampleMedia = [
                 date: "2023-07-20",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -1777,7 +1777,6 @@ export const sampleMedia = [
         year: 2013,
         cover: pacificRimCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2013-07-11",
         pinned: true,
         relatedWorks: [],
@@ -1786,7 +1785,8 @@ export const sampleMedia = [
                 date: "2013-07-11",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1797,7 +1797,6 @@ export const sampleMedia = [
         year: 2018,
         cover: pacificRimUprisingCover,
         coverSource: "TMDB",
-        rating: 0.5,
         createdOn: "2018-03-22",
         pinned: false,
         relatedWorks: [],
@@ -1806,7 +1805,8 @@ export const sampleMedia = [
                 date: "2018-03-22",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 0.5
             }
         ]
     },
@@ -1817,7 +1817,6 @@ export const sampleMedia = [
         year: 2026,
         cover: primetimeCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-09-26",
         pinned: false,
         relatedWorks: [],
@@ -1826,7 +1825,8 @@ export const sampleMedia = [
                 date: "2026-10-07",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1837,7 +1837,6 @@ export const sampleMedia = [
         year: 1997,
         cover: princessMononokeCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2025-03-30",
         pinned: true,
         relatedWorks: [],
@@ -1846,7 +1845,8 @@ export const sampleMedia = [
                 date: "2025-03-30",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 5
             }
         ]
     },
@@ -1857,7 +1857,6 @@ export const sampleMedia = [
         year: 2026,
         cover: projectHailMaryCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-05-16",
         pinned: false,
         relatedWorks: [],
@@ -1866,7 +1865,8 @@ export const sampleMedia = [
                 date: "2026-05-16",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -1877,7 +1877,6 @@ export const sampleMedia = [
         year: 2026,
         cover: residentEvilCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-09-22",
         pinned: false,
         relatedWorks: [
@@ -1891,13 +1890,15 @@ export const sampleMedia = [
                 date: "2026-09-22",
                 status: "finished",
                 label: null,
-                text: "Sees electrified fence, knows its electrified, tries and prepares with all his might to jump over it and not get shocked, and gets shocked anyways; in that moment, it truly felt like it did playing Resident Evil (in the best way) lmao.\n\nThat being said I feel kind of mixed on the movie as a whole. I really liked watching it and it was highly entertaining and visually looked awesome-- but there's something about the tone that didn't really jibe with my understanding of Resident Evil (at least having only played the first 3 games-- but even then I feel like an argument can be made from even just my understanding of the other entries in the series). I can get what Cregger was going for, and again as a movie on its own I liked it, but I really do feel like my issues with the movie come down to it feeling like I was watching someone playing Resident Evil instead of getting the feeling of playing Resident Evil.\n\nBryan for the most part took the actions of and was \"controlled\" like a normal dude if they were a character in a Resident Evil game--as opposed to certified badasses like Jill, Leon, and Chris or Ethan \"just a flesh wound\" Winters--but it felt like... the humor and entertainment was being injected by some invisible let's player or streamer. It works for me during the first third and half of the movie because it really did feel like it made sense given who Bryan is, the situation he finds himself in, how he was presented up to that point, but after a while it's felt like that humour and entertainment forward nature never really left even as things progressed and Bryan goes through more and more stuff. It's not even to say that Bryan himself couldn't be funny or bring comedic relief it's that it felt like the movie itself never stopped trying to inject a bit of heeheehaha (the car call scene for example kind of bugs me).\n\nAgain I keep coming back to it but the movie itself felt like it was a let's player or streamer that couldn't let the \"game\" itself breathe and felt like they had a duty to keep chat entertained. But man, it was entertaining I will say that.\n\n---"
+                text: "Sees electrified fence, knows its electrified, tries and prepares with all his might to jump over it and not get shocked, and gets shocked anyways; in that moment, it truly felt like it did playing Resident Evil (in the best way) lmao.\n\nThat being said I feel kind of mixed on the movie as a whole. I really liked watching it and it was highly entertaining and visually looked awesome-- but there's something about the tone that didn't really jibe with my understanding of Resident Evil (at least having only played the first 3 games-- but even then I feel like an argument can be made from even just my understanding of the other entries in the series). I can get what Cregger was going for, and again as a movie on its own I liked it, but I really do feel like my issues with the movie come down to it feeling like I was watching someone playing Resident Evil instead of getting the feeling of playing Resident Evil.\n\nBryan for the most part took the actions of and was \"controlled\" like a normal dude if they were a character in a Resident Evil game--as opposed to certified badasses like Jill, Leon, and Chris or Ethan \"just a flesh wound\" Winters--but it felt like... the humor and entertainment was being injected by some invisible let's player or streamer. It works for me during the first third and half of the movie because it really did feel like it made sense given who Bryan is, the situation he finds himself in, how he was presented up to that point, but after a while it's felt like that humour and entertainment forward nature never really left even as things progressed and Bryan goes through more and more stuff. It's not even to say that Bryan himself couldn't be funny or bring comedic relief it's that it felt like the movie itself never stopped trying to inject a bit of heeheehaha (the car call scene for example kind of bugs me).\n\nAgain I keep coming back to it but the movie itself felt like it was a let's player or streamer that couldn't let the \"game\" itself breathe and felt like they had a duty to keep chat entertained. But man, it was entertaining I will say that.",
+                rating: 3.5
             },
             {
                 date: "2026-10-11",
-                status: null,
+                status: "finished",
                 label: "Rewatch",
-                text: "Enjoyed it more on a second watch. For some reason most of the problems I had with the tone kind of melted away on a rewatch and the entire ride is just generally a great time. I also think watching the movie and leaning towards a reading its events through a representational lens (i.e. as representative of Bryan's refusal to grow up, fear of fatherhood and commitment, trailing baggage, and the catching up of consequences) made the movie far more engaging than I thought it was on a first watch; it feels more cohesive that way and less like mainly just a(n entertaining) rollercoaster of events I felt during the first watch.\n\nAlso man, I just really like Bryan..."
+                text: "Enjoyed it more on a second watch. For some reason most of the problems I had with the tone kind of melted away on a rewatch and the entire ride is just generally a great time. I also think watching the movie and leaning towards a reading its events through a representational lens (i.e. as representative of Bryan's refusal to grow up, fear of fatherhood and commitment, trailing baggage, and the catching up of consequences) made the movie far more engaging than I thought it was on a first watch; it feels more cohesive that way and less like mainly just a(n entertaining) rollercoaster of events I felt during the first watch.\n\nAlso man, I just really like Bryan...",
+                rating: 3.5
             }
         ]
     },
@@ -1908,7 +1909,6 @@ export const sampleMedia = [
         year: 2010,
         cover: scottPilgrimVsTheWorldCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-03-09",
         pinned: false,
         relatedWorks: [],
@@ -1917,7 +1917,8 @@ export const sampleMedia = [
                 date: "2026-03-09",
                 status: "finished",
                 label: null,
-                text: "honestly just a really, really fun and stylized good time"
+                text: "honestly just a really, really fun and stylized good time",
+                rating: 3.5
             }
         ]
     },
@@ -1928,7 +1929,6 @@ export const sampleMedia = [
         year: 1995,
         cover: se7enCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -1937,7 +1937,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -1948,7 +1949,6 @@ export const sampleMedia = [
         year: 2021,
         cover: shangChiAndTheLegendOfTheTenRingsCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -1957,7 +1957,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -1968,7 +1969,6 @@ export const sampleMedia = [
         year: 1975,
         cover: sholayCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2026-09-12",
         pinned: true,
         relatedWorks: [],
@@ -1977,7 +1977,8 @@ export const sampleMedia = [
                 date: "2026-09-12",
                 status: "finished",
                 label: null,
-                text: "I LOVE this movie with every fiber of my being.\n\nIt's not artsy, it's not \"weird\", it's not some super deep or complex work of a r t with confrontational themes that cut to your core and imprint themselves on you nor has you leaving with questions after the credits rolled-- it's just one of the greatest movie watching experiences I've had and it continues to be every time I watch it.\n\nThe soundtrack is phenomenal, the presentation is stellar, and the ride--while primarily being centered on a tale of revenge and the relationship between the duo of Veeru and Jai--manages to capture such a wide spectrum of genres and emotions without ever feeling too messy or succumbing to tonal whiplash."
+                text: "I LOVE this movie with every fiber of my being.\n\nIt's not artsy, it's not \"weird\", it's not some super deep or complex work of a r t with confrontational themes that cut to your core and imprint themselves on you nor has you leaving with questions after the credits rolled-- it's just one of the greatest movie watching experiences I've had and it continues to be every time I watch it.\n\nThe soundtrack is phenomenal, the presentation is stellar, and the ride--while primarily being centered on a tale of revenge and the relationship between the duo of Veeru and Jai--manages to capture such a wide spectrum of genres and emotions without ever feeling too messy or succumbing to tonal whiplash.",
+                rating: 5
             }
         ]
     },
@@ -1988,7 +1989,6 @@ export const sampleMedia = [
         year: 2010,
         cover: shutterIslandCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2026-07-10",
         pinned: false,
         relatedWorks: [],
@@ -1997,7 +1997,8 @@ export const sampleMedia = [
                 date: "2026-07-10",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 5
             }
         ]
     },
@@ -2008,7 +2009,6 @@ export const sampleMedia = [
         year: 2012,
         cover: sinisterCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2021-08-07",
         pinned: false,
         relatedWorks: [],
@@ -2017,7 +2017,8 @@ export const sampleMedia = [
                 date: "2021-08-07",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2028,7 +2029,6 @@ export const sampleMedia = [
         year: 2002,
         cover: spiderManCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2037,7 +2037,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -2048,7 +2049,6 @@ export const sampleMedia = [
         year: 2004,
         cover: spiderMan2Cover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2057,7 +2057,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 5
             }
         ]
     },
@@ -2068,7 +2069,6 @@ export const sampleMedia = [
         year: 2007,
         cover: spiderMan3Cover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2077,7 +2077,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2088,7 +2089,6 @@ export const sampleMedia = [
         year: 2023,
         cover: spiderManAcrossTheSpiderVerseCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2097,7 +2097,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -2108,7 +2109,6 @@ export const sampleMedia = [
         year: 2026,
         cover: spiderManBrandNewDayCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-07-30",
         pinned: false,
         relatedWorks: [],
@@ -2117,13 +2117,15 @@ export const sampleMedia = [
                 date: "2026-07-30",
                 status: "finished",
                 label: null,
-                text: "Not perfect, but a damn good Spider-Man movie-- maybe even my favourite of the MCU Spider-Man movies.\n\nTom Holland is easily at his best in this movie. He walks on the emotional ground No Way Home left the character on and is able channel that into the different situations he finds himself in both as Peter Parker and as Spider-Man. His losses in and loneliness stemming from the last movie permeates every one of his actions for most of this movie and we see how it causes him to push himself further and further into isolation and the only real thing he has left: his identity and work as Spider-Man. Despite all this, the movie doesn't lose itself itself in the darkness. The world outside of Peter Parker and inhabited by Spider-Man is bright and vibrant and is easily my favourite looking of the Holland movies (along with the suit-- which would've easily been the best live action incarnation of the suit were it not for the existence of The Amazing Spider-Man 2's suit).\n\nDestin Daniel Cretton took the reins from John Watts and, for the most part, kept everything that worked from the earlier movies, shifted the focus away from the things that didn't, and elevated the parts that could've used some polish. I think the color palette and lighting of this movie was gorgeous. It never stunned me in the way that something like the Odyssey (having watched it recently) did and at times background elements looked... off... But the movie never looked or felt bland or one note. From the daylight swinging sequences to a neon soaked rooftop at night to a fire-lit street battle. To me it felt like the movie took inspiration from the lighting in the rainy rooftop scene from No Way Home and decided to take that into every scene, making the lighting itself an integral and noticeable, though not distracting, part of each scene. Moreover I think it worked to serve as a great visual display of the conflict and tension between Peter Parker and Spider-Man and gives this movie a sense of character and identity in and of itself. This movie on the whole also feels like a love letter to Insomniac's Spider-Man and seeing the plethora of callbacks and inspirations scattered throughout--from explicit finishers and scene recreations to the commonality in the type of Spider-Man story they tell--was awesome.\n\nBefore getting to the stuff that didn't really work for me I do also want to mention that despite all the things the movie had going for it, I'm really happy it didn't fall into the Amazing Spider-Man 2 scenario of getting too caught up in the web of things its trying to do and end up a bit of a mess. There's a conversation to be had for whether certain things and people really needed to be included at all, like the Hulk, but I think their inclusion worked for the most part-- they never really stole the show and had about as big a role as they should've. If anything, I was skeptical of the Punisher's involvement in the movie when I heard about it but I think the back and forth between Spider-Man and Frank was great (even if Frank is a bit goofier than I remember him from the Daredevil days...). The supporting cast was also pretty good, I think Zendaya did a great job as MJ and her interactions with Tom Holland were some of the best parts of the movie given the nature of the relationship they now hold post No Way Home.\n\nI think for as much as I like this movie, I'm not a huge fan of the last third and even the ending depending on how you interpret it. It's by no means terrible, and the more I think about it the less I actively dislike it, but I personally feel like the movie wasn't really able to stick a strong or deeply resonant emotional or thematic conclusion and ultimately feels like the needle wasn't pushed as much as it could have been (and however much it was pushed might have been slightly pulled back by the end).\n\nI think my biggest issue is that I'm not really a fan of Jean Grey as the central antagonist. I think the antagonist was great and honestly pretty intimidating for a lot of the movie-- I think they were not only interesting in how they interacted with Spider-Man and the situations he was put into, but also the ways in which they (intentionally or not) pushed Peter to confront the other main antagonistic force of the movie: himself. I don't really have much to say about Jean Grey though beyond feeling that her role as the antagonist didn't have as much of an additive effect to Peter's journey, and felt like it fell a bit too much into an origin story/setup. Sadie Sink was good, her story was good on its own, but I think my personal preference would've been a different antagonist that acts as more of a foil than an eventual mirror; not to glaze the game again, but someone that challenges Peter in similar ways that Dr Octopus or Mr Negative did. I think by the end I was left feeling like the movie ended kind of straightforwardly and because of some incongruencies with Jean in the first half compared to the second half I don't think I left feeling feeling as sympathetic as I think the movie expected me to either.\n\nAnother issue I have is that I felt that the movie paid huge respect to the decision at the end of No Way Home and built off and explored its consequences throughout, but at the very end didn't fully commit to it. I think the movie was heartfelt in its exploration of grief, saying goodbye, and moving on, but at the end still felt like it was keeping one foot in the door for the possibility of following entries going back to some of what was once before (mainly in terms of cast, characters, and dynamics). On some level I can see why that might be the case, studio success and whatever aside, that sequence with Ned, MJ, and Peter hanging out was great and bittersweet-- but I think it had added effect because it felt like the characters, and us the audience, were having our last goodbye. I feel like the movie would have been more narratively interesting if it fully committed to closing the chapter on the Home trilogy and swung headfirst into whatever a Brand New Day may hold.\n\n---"
+                text: "Not perfect, but a damn good Spider-Man movie-- maybe even my favourite of the MCU Spider-Man movies.\n\nTom Holland is easily at his best in this movie. He walks on the emotional ground No Way Home left the character on and is able channel that into the different situations he finds himself in both as Peter Parker and as Spider-Man. His losses in and loneliness stemming from the last movie permeates every one of his actions for most of this movie and we see how it causes him to push himself further and further into isolation and the only real thing he has left: his identity and work as Spider-Man. Despite all this, the movie doesn't lose itself itself in the darkness. The world outside of Peter Parker and inhabited by Spider-Man is bright and vibrant and is easily my favourite looking of the Holland movies (along with the suit-- which would've easily been the best live action incarnation of the suit were it not for the existence of The Amazing Spider-Man 2's suit).\n\nDestin Daniel Cretton took the reins from John Watts and, for the most part, kept everything that worked from the earlier movies, shifted the focus away from the things that didn't, and elevated the parts that could've used some polish. I think the color palette and lighting of this movie was gorgeous. It never stunned me in the way that something like the Odyssey (having watched it recently) did and at times background elements looked... off... But the movie never looked or felt bland or one note. From the daylight swinging sequences to a neon soaked rooftop at night to a fire-lit street battle. To me it felt like the movie took inspiration from the lighting in the rainy rooftop scene from No Way Home and decided to take that into every scene, making the lighting itself an integral and noticeable, though not distracting, part of each scene. Moreover I think it worked to serve as a great visual display of the conflict and tension between Peter Parker and Spider-Man and gives this movie a sense of character and identity in and of itself. This movie on the whole also feels like a love letter to Insomniac's Spider-Man and seeing the plethora of callbacks and inspirations scattered throughout--from explicit finishers and scene recreations to the commonality in the type of Spider-Man story they tell--was awesome.\n\nBefore getting to the stuff that didn't really work for me I do also want to mention that despite all the things the movie had going for it, I'm really happy it didn't fall into the Amazing Spider-Man 2 scenario of getting too caught up in the web of things its trying to do and end up a bit of a mess. There's a conversation to be had for whether certain things and people really needed to be included at all, like the Hulk, but I think their inclusion worked for the most part-- they never really stole the show and had about as big a role as they should've. If anything, I was skeptical of the Punisher's involvement in the movie when I heard about it but I think the back and forth between Spider-Man and Frank was great (even if Frank is a bit goofier than I remember him from the Daredevil days...). The supporting cast was also pretty good, I think Zendaya did a great job as MJ and her interactions with Tom Holland were some of the best parts of the movie given the nature of the relationship they now hold post No Way Home.\n\nI think for as much as I like this movie, I'm not a huge fan of the last third and even the ending depending on how you interpret it. It's by no means terrible, and the more I think about it the less I actively dislike it, but I personally feel like the movie wasn't really able to stick a strong or deeply resonant emotional or thematic conclusion and ultimately feels like the needle wasn't pushed as much as it could have been (and however much it was pushed might have been slightly pulled back by the end).\n\nI think my biggest issue is that I'm not really a fan of Jean Grey as the central antagonist. I think the antagonist was great and honestly pretty intimidating for a lot of the movie-- I think they were not only interesting in how they interacted with Spider-Man and the situations he was put into, but also the ways in which they (intentionally or not) pushed Peter to confront the other main antagonistic force of the movie: himself. I don't really have much to say about Jean Grey though beyond feeling that her role as the antagonist didn't have as much of an additive effect to Peter's journey, and felt like it fell a bit too much into an origin story/setup. Sadie Sink was good, her story was good on its own, but I think my personal preference would've been a different antagonist that acts as more of a foil than an eventual mirror; not to glaze the game again, but someone that challenges Peter in similar ways that Dr Octopus or Mr Negative did. I think by the end I was left feeling like the movie ended kind of straightforwardly and because of some incongruencies with Jean in the first half compared to the second half I don't think I left feeling feeling as sympathetic as I think the movie expected me to either.\n\nAnother issue I have is that I felt that the movie paid huge respect to the decision at the end of No Way Home and built off and explored its consequences throughout, but at the very end didn't fully commit to it. I think the movie was heartfelt in its exploration of grief, saying goodbye, and moving on, but at the end still felt like it was keeping one foot in the door for the possibility of following entries going back to some of what was once before (mainly in terms of cast, characters, and dynamics). On some level I can see why that might be the case, studio success and whatever aside, that sequence with Ned, MJ, and Peter hanging out was great and bittersweet-- but I think it had added effect because it felt like the characters, and us the audience, were having our last goodbye. I feel like the movie would have been more narratively interesting if it fully committed to closing the chapter on the Home trilogy and swung headfirst into whatever a Brand New Day may hold.",
+                rating: 4
             },
             {
                 date: "2026-08-03",
-                status: null,
+                status: "finished",
                 label: "Rewatch",
-                text: "On the whole I enjoyed it more on a rewatch given that I could stop, consciously or not, trying to preempt the direction of the movie and its themes and instead just settle into what it was showing. Man do I really like the first two thirds or so of this movie, but man do I still not fully click with the last third.\n\nOn the bright side, the screen I watched it on this time was far better w.r.t. colors and brightness and basically fixed any of the out of place looking backgrounds and environments from the first watch-- movie somehow looked even better this time around."
+                text: "On the whole I enjoyed it more on a rewatch given that I could stop, consciously or not, trying to preempt the direction of the movie and its themes and instead just settle into what it was showing. Man do I really like the first two thirds or so of this movie, but man do I still not fully click with the last third.\n\nOn the bright side, the screen I watched it on this time was far better w.r.t. colors and brightness and basically fixed any of the out of place looking backgrounds and environments from the first watch-- movie somehow looked even better this time around.",
+                rating: 4
             }
         ]
     },
@@ -2134,7 +2136,6 @@ export const sampleMedia = [
         year: 2019,
         cover: spiderManFarFromHomeCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2019-07-02",
         pinned: false,
         relatedWorks: [],
@@ -2143,7 +2144,8 @@ export const sampleMedia = [
                 date: "2019-07-02",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2154,7 +2156,6 @@ export const sampleMedia = [
         year: 2017,
         cover: spiderManHomecomingCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2017-06-06",
         pinned: false,
         relatedWorks: [],
@@ -2163,7 +2164,8 @@ export const sampleMedia = [
                 date: "2017-06-06",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -2174,7 +2176,6 @@ export const sampleMedia = [
         year: 2018,
         cover: spiderManIntoTheSpiderVerseCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2026-05-29",
         pinned: true,
         relatedWorks: [],
@@ -2183,7 +2184,8 @@ export const sampleMedia = [
                 date: "2026-10-09",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 5
             }
         ]
     },
@@ -2194,7 +2196,6 @@ export const sampleMedia = [
         year: 2021,
         cover: spiderManNoWayHomeCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2021-12-16",
         pinned: false,
         relatedWorks: [],
@@ -2203,7 +2204,8 @@ export const sampleMedia = [
                 date: "2021-12-16",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -2214,7 +2216,6 @@ export const sampleMedia = [
         year: 1949,
         cover: strayDogCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2223,7 +2224,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2234,7 +2236,6 @@ export const sampleMedia = [
         year: 2025,
         cover: supermanCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2025-07-18",
         pinned: false,
         relatedWorks: [],
@@ -2243,7 +2244,8 @@ export const sampleMedia = [
                 date: "2025-07-18",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2254,7 +2256,6 @@ export const sampleMedia = [
         year: 2022,
         cover: suzumeCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2023-03-09",
         pinned: false,
         relatedWorks: [],
@@ -2263,7 +2264,8 @@ export const sampleMedia = [
                 date: "2023-03-09",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -2274,7 +2276,6 @@ export const sampleMedia = [
         year: 2011,
         cover: terrifier2011Cover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-07-30",
         pinned: false,
         relatedWorks: [],
@@ -2283,7 +2284,8 @@ export const sampleMedia = [
                 date: "2026-07-30",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -2294,7 +2296,6 @@ export const sampleMedia = [
         year: 2016,
         cover: terrifier2016Cover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-08-22",
         pinned: false,
         relatedWorks: [],
@@ -2303,7 +2304,8 @@ export const sampleMedia = [
                 date: "2026-08-22",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -2314,7 +2316,6 @@ export const sampleMedia = [
         year: 2012,
         cover: theAmazingSpiderManCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2323,7 +2324,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2334,7 +2336,6 @@ export const sampleMedia = [
         year: 2014,
         cover: theAmazingSpiderMan2Cover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2343,7 +2344,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2.5
             }
         ]
     },
@@ -2354,7 +2356,6 @@ export const sampleMedia = [
         year: 2012,
         cover: theAvengersCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2363,7 +2364,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2374,7 +2376,6 @@ export const sampleMedia = [
         year: 2022,
         cover: theBatmanCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2024-01-06",
         pinned: false,
         relatedWorks: [],
@@ -2383,7 +2384,8 @@ export const sampleMedia = [
                 date: "2024-01-06",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -2394,7 +2396,6 @@ export const sampleMedia = [
         year: 1999,
         cover: theBlairWitchProjectCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-07-05",
         pinned: false,
         relatedWorks: [],
@@ -2403,7 +2404,8 @@ export const sampleMedia = [
                 date: "2026-07-05",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -2414,7 +2416,6 @@ export const sampleMedia = [
         year: 1971,
         cover: theDevilsCover,
         coverSource: "TMDB",
-        rating: 5,
         createdOn: "2026-10-15",
         pinned: true,
         relatedWorks: [],
@@ -2423,7 +2424,8 @@ export const sampleMedia = [
                 date: "2026-10-15",
                 status: "finished",
                 label: null,
-                text: "\"Call me vain and proud, the greatest sinner ever to walk God's earth, but Satan's boy I could never be. I haven't the humility.\"\n\nA deeply transgressive film whose content feels earned in a way I haven't felt with a lot of other transgressive works. It's an incredibly engaging watch in and of itself, but its brutal and unflinching depictions and critique of the abuse of institutionalized power really landed. The way it depicts using human nature's worst and most perverse innate characteristics (especially those that are suppressed and doing so hypocritically) for one or a group's own ends was so... viscerally and chillingly depicted. It is exaggerated, over the top, and even absurd and comedic at times, but never to the point where it undercut or dulled the impact of what it was showing. And again, hats off for being able to do all this while not making the movie feel like a drag or that it's making a point/showing something at the expense of its watchability.\n\nIf only the score was on Spotify 😔"
+                text: "\"Call me vain and proud, the greatest sinner ever to walk God's earth, but Satan's boy I could never be. I haven't the humility.\"\n\nA deeply transgressive film whose content feels earned in a way I haven't felt with a lot of other transgressive works. It's an incredibly engaging watch in and of itself, but its brutal and unflinching depictions and critique of the abuse of institutionalized power really landed. The way it depicts using human nature's worst and most perverse innate characteristics (especially those that are suppressed and doing so hypocritically) for one or a group's own ends was so... viscerally and chillingly depicted. It is exaggerated, over the top, and even absurd and comedic at times, but never to the point where it undercut or dulled the impact of what it was showing. And again, hats off for being able to do all this while not making the movie feel like a drag or that it's making a point/showing something at the expense of its watchability.\n\nIf only the score was on Spotify 😔",
+                rating: 5
             }
         ]
     },
@@ -2434,7 +2436,6 @@ export const sampleMedia = [
         year: 2026,
         cover: theEndOfOakStreetCover,
         coverSource: "TMDB",
-        rating: 1.5,
         createdOn: "2026-08-25",
         pinned: false,
         relatedWorks: [],
@@ -2443,7 +2444,8 @@ export const sampleMedia = [
                 date: "2026-08-25",
                 status: "finished",
                 label: null,
-                text: "I felt so little towards this movie that I'm convinced I've either missed something and #didn't-get-it or that this movie is so one of the movies of all time that if it were erased from existence there would be no impact on the timeline.\n\nAlso making 90 minutes feel like 3 hours is kinda wild."
+                text: "I felt so little towards this movie that I'm convinced I've either missed something and #didn't-get-it or that this movie is so one of the movies of all time that if it were erased from existence there would be no impact on the timeline.\n\nAlso making 90 minutes feel like 3 hours is kinda wild.",
+                rating: 1.5
             }
         ]
     },
@@ -2454,7 +2456,6 @@ export const sampleMedia = [
         year: 1977,
         cover: theHillsHaveEyesCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-09-07",
         pinned: false,
         relatedWorks: [],
@@ -2463,7 +2464,8 @@ export const sampleMedia = [
                 date: "2026-09-07",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -2474,7 +2476,6 @@ export const sampleMedia = [
         year: 2009,
         cover: theHumanCentipedeFirstSequenceCover,
         coverSource: "TMDB",
-        rating: 1,
         createdOn: "2026-09-29",
         pinned: false,
         relatedWorks: [],
@@ -2483,7 +2484,8 @@ export const sampleMedia = [
                 date: "2026-09-29",
                 status: "finished",
                 label: null,
-                text: "\"Mr. Kamikaze is a chicken today.\""
+                text: "\"Mr. Kamikaze is a chicken today.\"",
+                rating: 1
             }
         ]
     },
@@ -2494,7 +2496,6 @@ export const sampleMedia = [
         year: 2011,
         cover: theHumanCentipede2FullSequenceCover,
         coverSource: "TMDB",
-        rating: 0.5,
         createdOn: "2026-10-01",
         pinned: false,
         relatedWorks: [],
@@ -2503,7 +2504,8 @@ export const sampleMedia = [
                 date: "2026-10-01",
                 status: "finished",
                 label: null,
-                text: "The Human Centipede is conceptually gross as is, but this movie is VILE for no reason but the love of the game. It makes the first one seem like a certified masterpiece of film.\n\nI don't even mind extreme horror or splatter films in general, but this one was honestly kind of abhorrent; the \"incorporation\" and use of, by that I mean genuine exploitation of, SA and trauma for literally nothing but shock value was actually disgusting.\n\nTHE THERAPIST? SANDPAPER? BARBED WIRE? MF GAS PEDAL? HELLO?\n\nIdk man. Wow."
+                text: "The Human Centipede is conceptually gross as is, but this movie is VILE for no reason but the love of the game. It makes the first one seem like a certified masterpiece of film.\n\nI don't even mind extreme horror or splatter films in general, but this one was honestly kind of abhorrent; the \"incorporation\" and use of, by that I mean genuine exploitation of, SA and trauma for literally nothing but shock value was actually disgusting.\n\nTHE THERAPIST? SANDPAPER? BARBED WIRE? MF GAS PEDAL? HELLO?\n\nIdk man. Wow.",
+                rating: 0.5
             }
         ]
     },
@@ -2514,7 +2516,6 @@ export const sampleMedia = [
         year: 2015,
         cover: theHumanCentipede3FinalSequenceCover,
         coverSource: "TMDB",
-        rating: 0.5,
         createdOn: "2026-10-03",
         pinned: false,
         relatedWorks: [],
@@ -2523,7 +2524,8 @@ export const sampleMedia = [
                 date: "2026-10-03",
                 status: "finished",
                 label: null,
-                text: "It's as ridiculous and depraved as the second one but so tonally absurd that it wraps around to being palatable in a way the second one really wasn't. It's still dumb and stupid, but it doesn't feel like it's... Malicious? In the same way the second one felt like it was."
+                text: "It's as ridiculous and depraved as the second one but so tonally absurd that it wraps around to being palatable in a way the second one really wasn't. It's still dumb and stupid, but it doesn't feel like it's... Malicious? In the same way the second one felt like it was.",
+                rating: 0.5
             }
         ]
     },
@@ -2534,7 +2536,6 @@ export const sampleMedia = [
         year: 2008,
         cover: theIncredibleHulkCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2543,7 +2544,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -2554,7 +2556,6 @@ export const sampleMedia = [
         year: 2026,
         cover: theOdysseyCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-07-27",
         pinned: false,
         relatedWorks: [],
@@ -2563,13 +2564,15 @@ export const sampleMedia = [
                 date: "2026-07-27",
                 status: "finished",
                 label: null,
-                text: "\"And dawn will break over the darkened world. And our mistakes will once again be forgotten\".\n\nTo get it out of the way, the movie is visually stunning and Ludwig Göransson cooked with the score once again. I think the Cyclops, Circe, Sirens, and Hades scenes were my favourite, but aside from some of the fight sequences (particularly the final one with Odysseus) I don't think there was ever really a mid, let alone bad, looking or feeling sequence. Also, at one point during the initial encounter with the Cyclops there was a shot that looked almost exactly like Saturn Devouring His Son-- and that was very, very cool. I also think the acting was pretty great overall, Matt Damon and Anne Hathaway are great and Robert Pattinson is my personal favourite-- \"cansomebodygetthese BEGGARS out of here?\"\n\nWhen it comes to the story and characters, I really like that despite being an adaptation of an epic, and giving an epic the scale and respect it deserves, that the movie is centered on the character and journey of Odysseus and then uses that more intimate scale conflict as a lens to focus on larger scale ideas and messages; from questions of leadership and heroism to feelings of losing oneself and guilt to hubris, collapse, and how to move forward. I still don't know if I feel like the Odyssey ends on a more pessimistic or optimistic note-- I never read the poems either, so can't comment on how the film differs from the source material. I didn't leave the theater feeling entirely hopeful, but neither did I leave with the pessimistic chill that Oppenheimer left me with. I feel like the Odyssey left me with a cyclical reading of history and humanity ever chasing the escaping sun.\n\nWhen thinking of dawn breaking over a darkened world, I get a feeling of somber acceptance of what is and what has been done, followed by what can be as we move forward. Our mistakes once again being forgotten feels two-fold in its implication, however. On the one hand there is the hope that the breaking of dawn brings through those that come after us and their being able to build something of their own, not necessarily rebuild nor restore, unbound by those and that which came before. On the other hand, this forgetting brings with it the possibility of repeating the very things that darkened the world before.\n\nWhat sticks out to me about the ending is that Odysseus and Penelope chase the _escaping_ sun. Even figuratively it feels like an impossible task, the sun will always set, but they sail anyway. Both the dawn breaking over a darkened world and the mistakes being forgotten aren't posed as questions or possibilities, but instead they're presented as facts. I don't think the movie was trying to say that things will get better and that we will learn and move on from past mistakes, nor do I think it condemns us to forever repeat the past. Instead, I think the movie left me with no guarantees for what happens after the sun sets, after the world is darkened, and after dawn breaks. Just the guarantee that dawn will break.\n\n---"
+                text: "\"And dawn will break over the darkened world. And our mistakes will once again be forgotten\".\n\nTo get it out of the way, the movie is visually stunning and Ludwig Göransson cooked with the score once again. I think the Cyclops, Circe, Sirens, and Hades scenes were my favourite, but aside from some of the fight sequences (particularly the final one with Odysseus) I don't think there was ever really a mid, let alone bad, looking or feeling sequence. Also, at one point during the initial encounter with the Cyclops there was a shot that looked almost exactly like Saturn Devouring His Son-- and that was very, very cool. I also think the acting was pretty great overall, Matt Damon and Anne Hathaway are great and Robert Pattinson is my personal favourite-- \"cansomebodygetthese BEGGARS out of here?\"\n\nWhen it comes to the story and characters, I really like that despite being an adaptation of an epic, and giving an epic the scale and respect it deserves, that the movie is centered on the character and journey of Odysseus and then uses that more intimate scale conflict as a lens to focus on larger scale ideas and messages; from questions of leadership and heroism to feelings of losing oneself and guilt to hubris, collapse, and how to move forward. I still don't know if I feel like the Odyssey ends on a more pessimistic or optimistic note-- I never read the poems either, so can't comment on how the film differs from the source material. I didn't leave the theater feeling entirely hopeful, but neither did I leave with the pessimistic chill that Oppenheimer left me with. I feel like the Odyssey left me with a cyclical reading of history and humanity ever chasing the escaping sun.\n\nWhen thinking of dawn breaking over a darkened world, I get a feeling of somber acceptance of what is and what has been done, followed by what can be as we move forward. Our mistakes once again being forgotten feels two-fold in its implication, however. On the one hand there is the hope that the breaking of dawn brings through those that come after us and their being able to build something of their own, not necessarily rebuild nor restore, unbound by those and that which came before. On the other hand, this forgetting brings with it the possibility of repeating the very things that darkened the world before.\n\nWhat sticks out to me about the ending is that Odysseus and Penelope chase the _escaping_ sun. Even figuratively it feels like an impossible task, the sun will always set, but they sail anyway. Both the dawn breaking over a darkened world and the mistakes being forgotten aren't posed as questions or possibilities, but instead they're presented as facts. I don't think the movie was trying to say that things will get better and that we will learn and move on from past mistakes, nor do I think it condemns us to forever repeat the past. Instead, I think the movie left me with no guarantees for what happens after the sun sets, after the world is darkened, and after dawn breaks. Just the guarantee that dawn will break.",
+                rating: 4.5
             },
             {
                 date: "2026-08-20",
-                status: null,
+                status: "finished",
                 label: "Rewatch",
-                text: "Auramemnon in 70mm was worth it"
+                text: "Auramemnon in 70mm was worth it",
+                rating: 4
             }
         ]
     },
@@ -2580,7 +2583,6 @@ export const sampleMedia = [
         year: 2017,
         cover: theOutlawsCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-08-10",
         pinned: false,
         relatedWorks: [],
@@ -2589,7 +2591,8 @@ export const sampleMedia = [
                 date: "2026-08-10",
                 status: "finished",
                 label: null,
-                text: "on the whole it's kind of one of the movies of all time-- but man is Ma Dong-seok just... the best"
+                text: "on the whole it's kind of one of the movies of all time-- but man is Ma Dong-seok just... the best",
+                rating: 3.5
             }
         ]
     },
@@ -2600,7 +2603,6 @@ export const sampleMedia = [
         year: 2012,
         cover: thePerksOfBeingAWallflowerCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-08-13",
         pinned: false,
         relatedWorks: [],
@@ -2609,7 +2611,8 @@ export const sampleMedia = [
                 date: "2026-08-13",
                 status: "finished",
                 label: null,
-                text: "I think the strongest part of the movie is how it oscillates between being a quirky adolescent drama and being surprisingly grounded in a way that, intentionally or not, really captures a sense of growing up and of transitional phases in life in general.\n\nMost of the high school specific stuff didn't really land for me personally mainly due to my well of attitudes and experiences the movie tries to draw on being fairly dry. Although, given the extent to which the parts of it that *did* land worked for me--like the value of a supportive teacher--I can understand why this movie hit a lot closer to home for others.\n\nI also feel like the movie dealt with difficult subject matter in a way that, while not always explored very deeply, was presented tastefully imo; I never really got the sense that stuff that happens to characters or things they've experienced existed solely for shock value but instead are things that characters have meaningfully dealt with/experienced or are dealing with/experiencing. I didn't get the sense that things that happened to characters were labels that were disconnected from the person we're seeing on-screen.\n\nAlso The Smiths W."
+                text: "I think the strongest part of the movie is how it oscillates between being a quirky adolescent drama and being surprisingly grounded in a way that, intentionally or not, really captures a sense of growing up and of transitional phases in life in general.\n\nMost of the high school specific stuff didn't really land for me personally mainly due to my well of attitudes and experiences the movie tries to draw on being fairly dry. Although, given the extent to which the parts of it that *did* land worked for me--like the value of a supportive teacher--I can understand why this movie hit a lot closer to home for others.\n\nI also feel like the movie dealt with difficult subject matter in a way that, while not always explored very deeply, was presented tastefully imo; I never really got the sense that stuff that happens to characters or things they've experienced existed solely for shock value but instead are things that characters have meaningfully dealt with/experienced or are dealing with/experiencing. I didn't get the sense that things that happened to characters were labels that were disconnected from the person we're seeing on-screen.\n\nAlso The Smiths W.",
+                rating: 3.5
             }
         ]
     },
@@ -2620,7 +2623,6 @@ export const sampleMedia = [
         year: 2006,
         cover: thePrestigeCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-08-19",
         pinned: false,
         relatedWorks: [],
@@ -2629,7 +2631,8 @@ export const sampleMedia = [
                 date: "2026-08-19",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -2640,7 +2643,6 @@ export const sampleMedia = [
         year: 1987,
         cover: thePrincessBrideCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-07-01",
         pinned: false,
         relatedWorks: [],
@@ -2649,7 +2651,8 @@ export const sampleMedia = [
                 date: "2026-07-01",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -2660,7 +2663,6 @@ export const sampleMedia = [
         year: 2022,
         cover: theRoundupCover,
         coverSource: "TMDB",
-        rating: 2.5,
         createdOn: "2026-08-13",
         pinned: false,
         relatedWorks: [],
@@ -2669,7 +2671,8 @@ export const sampleMedia = [
                 date: "2026-08-13",
                 status: "finished",
                 label: null,
-                text: "the first one's defo the better movie--better villain, better crew setup, and better stakes--but still... Ma Dong-seok <3\n\nWhile the first one felt like a movie where things meaningfully happened (crew was introduced, characters changed and grew, the dynamics of the world and its parties were a lot more fleshed out), this one felt content in taking the ending of the first movie as a fixed state to work within and never really substantially change. I get the feeling that the rest of the series will kind of be like this, I could be wrong, and that's fine because it's genuinely funny and entertaining, but I would be remiss if I didn't mention that while the Roundup was entertaining, it was never engaging in the same ways the Outlaws was.\n\nAlso Ma Dong-seok traded slaps for punches in this one... And that makes me a little sad..."
+                text: "the first one's defo the better movie--better villain, better crew setup, and better stakes--but still... Ma Dong-seok <3\n\nWhile the first one felt like a movie where things meaningfully happened (crew was introduced, characters changed and grew, the dynamics of the world and its parties were a lot more fleshed out), this one felt content in taking the ending of the first movie as a fixed state to work within and never really substantially change. I get the feeling that the rest of the series will kind of be like this, I could be wrong, and that's fine because it's genuinely funny and entertaining, but I would be remiss if I didn't mention that while the Roundup was entertaining, it was never engaging in the same ways the Outlaws was.\n\nAlso Ma Dong-seok traded slaps for punches in this one... And that makes me a little sad...",
+                rating: 2.5
             }
         ]
     },
@@ -2680,7 +2683,6 @@ export const sampleMedia = [
         year: 2024,
         cover: theSubstanceCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-07-04",
         pinned: false,
         relatedWorks: [],
@@ -2689,7 +2691,8 @@ export const sampleMedia = [
                 date: "2026-07-04",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4
             }
         ]
     },
@@ -2700,7 +2703,6 @@ export const sampleMedia = [
         year: 2011,
         cover: thorCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2709,7 +2711,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -2720,7 +2723,6 @@ export const sampleMedia = [
         year: 2022,
         cover: thorLoveAndThunderCover,
         coverSource: "TMDB",
-        rating: 1,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2729,7 +2731,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 1
             }
         ]
     },
@@ -2740,7 +2743,6 @@ export const sampleMedia = [
         year: 2017,
         cover: thorRagnarokCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2749,7 +2751,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2760,7 +2763,6 @@ export const sampleMedia = [
         year: 2013,
         cover: thorTheDarkWorldCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2026-05-29",
         pinned: false,
         relatedWorks: [],
@@ -2769,7 +2771,8 @@ export const sampleMedia = [
                 date: "2026-05-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -2780,7 +2783,6 @@ export const sampleMedia = [
         year: 2007,
         cover: transformersCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2007-06-28",
         pinned: false,
         relatedWorks: [],
@@ -2789,7 +2791,8 @@ export const sampleMedia = [
                 date: "2007-06-28",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2800,7 +2803,6 @@ export const sampleMedia = [
         year: 2024,
         cover: transformersOneCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2024-09-18",
         pinned: false,
         relatedWorks: [],
@@ -2809,7 +2811,8 @@ export const sampleMedia = [
                 date: "2024-09-18",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -2820,7 +2823,6 @@ export const sampleMedia = [
         year: 2014,
         cover: transformersAgeOfExtinctionCover,
         coverSource: "TMDB",
-        rating: 1,
         createdOn: "2014-06-26",
         pinned: false,
         relatedWorks: [],
@@ -2829,7 +2831,8 @@ export const sampleMedia = [
                 date: "2014-06-26",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 1
             }
         ]
     },
@@ -2840,7 +2843,6 @@ export const sampleMedia = [
         year: 2011,
         cover: transformersDarkOfTheMoonCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2011-06-29",
         pinned: false,
         relatedWorks: [],
@@ -2849,7 +2851,8 @@ export const sampleMedia = [
                 date: "2011-06-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -2860,7 +2863,6 @@ export const sampleMedia = [
         year: 2009,
         cover: transformersRevengeOfTheFallenCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2009-06-29",
         pinned: false,
         relatedWorks: [],
@@ -2869,7 +2871,8 @@ export const sampleMedia = [
                 date: "2009-06-29",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -2880,7 +2883,6 @@ export const sampleMedia = [
         year: 2023,
         cover: transformersRiseOfTheBeastsCover,
         coverSource: "TMDB",
-        rating: 2,
         createdOn: "2023-06-08",
         pinned: false,
         relatedWorks: [],
@@ -2889,7 +2891,8 @@ export const sampleMedia = [
                 date: "2023-06-08",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 2
             }
         ]
     },
@@ -2900,7 +2903,6 @@ export const sampleMedia = [
         year: 2017,
         cover: transformersTheLastKnightCover,
         coverSource: "TMDB",
-        rating: 0.5,
         createdOn: "2017-06-22",
         pinned: false,
         relatedWorks: [],
@@ -2909,7 +2911,8 @@ export const sampleMedia = [
                 date: "2017-06-22",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 0.5
             }
         ]
     },
@@ -2920,7 +2923,6 @@ export const sampleMedia = [
         year: 2003,
         cover: uptownGirlsCover,
         coverSource: "TMDB",
-        rating: 3,
         createdOn: "2026-09-06",
         pinned: false,
         relatedWorks: [],
@@ -2929,7 +2931,8 @@ export const sampleMedia = [
                 date: "2026-09-06",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3
             }
         ]
     },
@@ -2940,7 +2943,6 @@ export const sampleMedia = [
         year: 2026,
         cover: whalefallCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-10-27",
         pinned: false,
         relatedWorks: [],
@@ -2949,7 +2951,8 @@ export const sampleMedia = [
                 date: "2026-10-27",
                 status: "finished",
                 label: null,
-                text: "Idk what I was expecting, but this was way better than I thought it was going to be. Good balance of a father-son driving narrative and survival horror(?) backdrop that never felt like either of them cannibalized the other. It also firmly kept the father-son narrative/character focus at the forefront and never tried to hot swap between trying to fully commit to one or the other. ALSO, the pacing and the momentum of the movie was great.\n\nIs this capital C cinema I'm going to look back at as one of the all time greats or even close to it? No. Could I be overrating this because I went in solely expecting an excuse to see, and see nothing but, another Austin Abrams has a bad day compilation? Probably, but idrc."
+                text: "Idk what I was expecting, but this was way better than I thought it was going to be. Good balance of a father-son driving narrative and survival horror(?) backdrop that never felt like either of them cannibalized the other. It also firmly kept the father-son narrative/character focus at the forefront and never tried to hot swap between trying to fully commit to one or the other. ALSO, the pacing and the momentum of the movie was great.\n\nIs this capital C cinema I'm going to look back at as one of the all time greats or even close to it? No. Could I be overrating this because I went in solely expecting an excuse to see, and see nothing but, another Austin Abrams has a bad day compilation? Probably, but idrc.",
+                rating: 3.5
             }
         ]
     },
@@ -2960,7 +2963,6 @@ export const sampleMedia = [
         year: 2026,
         cover: youCanSeeEverythingCover,
         coverSource: "TMDB",
-        rating: 4.5,
         createdOn: "2026-10-24",
         pinned: false,
         relatedWorks: [],
@@ -2969,7 +2971,8 @@ export const sampleMedia = [
                 date: "2026-10-24",
                 status: "finished",
                 label: null,
-                text: "You can see everything, but do we really know everything? It might just be a case like Blaine's ice pick-- the trick might be that there is no trick. But, even if so, there's an unshakable sense of doubt, a sense where your brain is telling you that can't be, that there's something missing or unclear or something that can't add up in the way the facts seem to add up.\n\nI think even putting aside the absolute JOURNEY you go through with this movie and the questions it gives rise to and the complexities of the people you're seeing, the things they're doing, and why they're doing it, this is one of the most interesting and engaging takes on a documentary I've ever seen (granted, I have not seen a lot of documentaries).\n\nI think the greatest strength of the movie is the way this documentary feels so... different and almost the opposite of the image I have of documentaries in general; there's a level of investment in the \"story\" by Fielder and way the movie is shot that truly immerses you in the lives and world of these people that, to me, feels so different to the somewhat dispassionate, objective, and detached feeling that describes my image of documentaries in general. However, I don't think this ever went too far in the pursuit of \"content\" instead of facts or the story that worked to the movie's detriment or in a way that delegitimizes its aims.\n\nI really, really liked Nathan Fielder as the main investigator and lead on this project-- he brings an energy and approach to the project and the interviews he conducts that feels so unlike the kind of the journalism that feels so commonplace now, at least in the realm of mainstream politics. Fielder asks questions that felt a little amateurish to me initially, but then I had to remember Fielder isn't an investigative reporter and he himself early on clearly talks about how under-equipped he is in certain ways w.r.t. the facts or background knowledge of the tech, for example. That's what soon after made Fielder as the driving force behind the project click-- it's not just that he has and asks questions more from the average person or even generally human perspective, but he has an incredible proclivity to latch onto the most innocuous parts of a response and get the person being interviewed to really dig into something completely unexpected. I think the clearest example of this is early on when he's talking to Billy and Billy gets distracted by a thought. Instead of simply acknowledging it and reentering the conversation and moving on, like I would have expected, Fielder catches that thread and yanks on it. Fielder has this level of \"disruptive\" questioning that is fascinating because in a story like this, once rooted in the question of deception and carefully crafted narratives, he reactions to these unplanned, unintentional, and almost unpredictable curveballs makes it even more engaging and feels like we're really getting this unfiltered look at the people involved."
+                text: "You can see everything, but do we really know everything? It might just be a case like Blaine's ice pick-- the trick might be that there is no trick. But, even if so, there's an unshakable sense of doubt, a sense where your brain is telling you that can't be, that there's something missing or unclear or something that can't add up in the way the facts seem to add up.\n\nI think even putting aside the absolute JOURNEY you go through with this movie and the questions it gives rise to and the complexities of the people you're seeing, the things they're doing, and why they're doing it, this is one of the most interesting and engaging takes on a documentary I've ever seen (granted, I have not seen a lot of documentaries).\n\nI think the greatest strength of the movie is the way this documentary feels so... different and almost the opposite of the image I have of documentaries in general; there's a level of investment in the \"story\" by Fielder and way the movie is shot that truly immerses you in the lives and world of these people that, to me, feels so different to the somewhat dispassionate, objective, and detached feeling that describes my image of documentaries in general. However, I don't think this ever went too far in the pursuit of \"content\" instead of facts or the story that worked to the movie's detriment or in a way that delegitimizes its aims.\n\nI really, really liked Nathan Fielder as the main investigator and lead on this project-- he brings an energy and approach to the project and the interviews he conducts that feels so unlike the kind of the journalism that feels so commonplace now, at least in the realm of mainstream politics. Fielder asks questions that felt a little amateurish to me initially, but then I had to remember Fielder isn't an investigative reporter and he himself early on clearly talks about how under-equipped he is in certain ways w.r.t. the facts or background knowledge of the tech, for example. That's what soon after made Fielder as the driving force behind the project click-- it's not just that he has and asks questions more from the average person or even generally human perspective, but he has an incredible proclivity to latch onto the most innocuous parts of a response and get the person being interviewed to really dig into something completely unexpected. I think the clearest example of this is early on when he's talking to Billy and Billy gets distracted by a thought. Instead of simply acknowledging it and reentering the conversation and moving on, like I would have expected, Fielder catches that thread and yanks on it. Fielder has this level of \"disruptive\" questioning that is fascinating because in a story like this, once rooted in the question of deception and carefully crafted narratives, he reactions to these unplanned, unintentional, and almost unpredictable curveballs makes it even more engaging and feels like we're really getting this unfiltered look at the people involved.",
+                rating: 4.5
             }
         ]
     },
@@ -2980,7 +2983,6 @@ export const sampleMedia = [
         year: 2016,
         cover: yourNameCover,
         coverSource: "TMDB",
-        rating: 4,
         createdOn: "2026-05-03",
         pinned: true,
         relatedWorks: [],
@@ -2989,7 +2991,8 @@ export const sampleMedia = [
                 date: "2026-08-19",
                 status: "finished",
                 label: null,
-                text: "This will never not be one of my favorite movies.\n\nDespite feeling that with every rewatch its flaws become a little more apparent--such as its plot holes/conveniences or the novelty of plot points or humor in certain sequences wearing thin/getting stale--I've never finished a viewing feeling like the movie didn't capture a special feeling. The katawaredoki and ending sequence always get me, and finally being able to see the movie on a big screen and hearing RADWIMPS in a cinema environment for its 10th anniversary screening made this watch in particular feel pretty special.\n\nIt's kind of funny that it's taken me so many watches to realise what exactly about the movie sticks with me beyond how gorgeously it's presented, how beautifully it's scored, and how the movie just generally has good vibes. I think it's because of the way in which the movie captures the hopelessly romantic fantasy of \"the One\".\n\nNot really the fantasy of falling in love with and eventually getting together with \"the One\", but instead giving shape to a persistent yet ephemeral longing for... something, or someone, and the fantasy of reciprocation and meaning in the feeling.\n\nTaking the string metaphor from the movie, the feeling is like a hand grabbing onto one end of a string without really knowing why, just that it does. The fantasy is that despite all the knots, crossings, and fraying threads, there's another hand holding onto the other end with the same sense of longing; somehow neither hand lets go, the string doesn't break, and eventually the two ends meet."
+                text: "This will never not be one of my favorite movies.\n\nDespite feeling that with every rewatch its flaws become a little more apparent--such as its plot holes/conveniences or the novelty of plot points or humor in certain sequences wearing thin/getting stale--I've never finished a viewing feeling like the movie didn't capture a special feeling. The katawaredoki and ending sequence always get me, and finally being able to see the movie on a big screen and hearing RADWIMPS in a cinema environment for its 10th anniversary screening made this watch in particular feel pretty special.\n\nIt's kind of funny that it's taken me so many watches to realise what exactly about the movie sticks with me beyond how gorgeously it's presented, how beautifully it's scored, and how the movie just generally has good vibes. I think it's because of the way in which the movie captures the hopelessly romantic fantasy of \"the One\".\n\nNot really the fantasy of falling in love with and eventually getting together with \"the One\", but instead giving shape to a persistent yet ephemeral longing for... something, or someone, and the fantasy of reciprocation and meaning in the feeling.\n\nTaking the string metaphor from the movie, the feeling is like a hand grabbing onto one end of a string without really knowing why, just that it does. The fantasy is that despite all the knots, crossings, and fraying threads, there's another hand holding onto the other end with the same sense of longing; somehow neither hand lets go, the string doesn't break, and eventually the two ends meet.",
+                rating: 4
             }
         ]
     },
@@ -3000,7 +3003,6 @@ export const sampleMedia = [
         year: 2016,
         cover: zootopiaCover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-08-05",
         pinned: false,
         relatedWorks: [],
@@ -3009,7 +3011,8 @@ export const sampleMedia = [
                 date: "2026-08-05",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 3.5
             }
         ]
     },
@@ -3020,7 +3023,6 @@ export const sampleMedia = [
         year: 2025,
         cover: zootopia2Cover,
         coverSource: "TMDB",
-        rating: 3.5,
         createdOn: "2026-08-09",
         pinned: false,
         relatedWorks: [],
@@ -3029,7 +3031,8 @@ export const sampleMedia = [
                 date: "2026-08-09",
                 status: "finished",
                 label: null,
-                text: "I think the first one is the better movie and has stronger character work with Judy specifically, but I think I was more engaged with Nick and Judy's arc and dynamic in this one enough to prefer it more on a first watch"
+                text: "I think the first one is the better movie and has stronger character work with Judy specifically, but I think I was more engaged with Nick and Judy's arc and dynamic in this one enough to prefer it more on a first watch",
+                rating: 3.5
             }
         ]
     },
@@ -3040,7 +3043,6 @@ export const sampleMedia = [
         year: 2024,
         cover: metaphorRefantazioCover,
         coverSource: null,
-        rating: null,
         createdOn: "2026-06-26",
         pinned: false,
         relatedWorks: [],
@@ -3049,7 +3051,8 @@ export const sampleMedia = [
                 date: "2026-06-26",
                 status: "in_progress",
                 label: null,
-                text: null
+                text: null,
+                rating: null
             }
         ]
     },
@@ -3060,7 +3063,6 @@ export const sampleMedia = [
         year: 2019,
         cover: discoElysiumCover,
         coverSource: null,
-        rating: 4.5,
         createdOn: "2026-01-24",
         pinned: true,
         relatedWorks: [],
@@ -3069,13 +3071,15 @@ export const sampleMedia = [
                 date: "2026-01-24",
                 status: "in_progress",
                 label: null,
-                text: null
+                text: null,
+                rating: null
             },
             {
                 date: "2026-06-04",
                 status: "finished",
                 label: null,
-                text: null
+                text: null,
+                rating: 4.5
             }
         ]
     },
@@ -3086,7 +3090,6 @@ export const sampleMedia = [
         year: 2020,
         cover: theInvisibleLifeOfAddieLaRueCover,
         coverSource: null,
-        rating: 2.5,
         createdOn: "2026-09-22",
         pinned: false,
         relatedWorks: [],
@@ -3095,13 +3098,15 @@ export const sampleMedia = [
                 date: "2026-09-22",
                 status: "in_progress",
                 label: null,
-                text: null
+                text: null,
+                rating: null
             },
             {
                 date: "2026-10-18",
                 status: "dropped",
                 label: null,
-                text: "not bad, will come back to it, kind of slow though and I don't have the time for this particular book right now..."
+                text: "not bad, will come back to it, kind of slow though and I don't have the time for this particular book right now...",
+                rating: 2.5
             }
         ]
     },
@@ -3112,7 +3117,6 @@ export const sampleMedia = [
         year: 2024,
         cover: silentHill2RemakeCover,
         coverSource: null,
-        rating: 5,
         createdOn: "2026-02-01",
         pinned: true,
         relatedWorks: [
@@ -3126,13 +3130,15 @@ export const sampleMedia = [
                 date: "2026-02-01",
                 status: "in_progress",
                 label: null,
-                text: null
+                text: null,
+                rating: null
             },
             {
                 date: "2026-03-28",
                 status: "completed",
                 label: null,
-                text: "In my restless dreams, I see that town. I can never leave it."
+                text: "In my restless dreams, I see that town. I can never leave it.",
+                rating: 5
             }
         ]
     },
@@ -3143,7 +3149,6 @@ export const sampleMedia = [
         year: 1946,
         cover: mansSearchForMeaningCover,
         coverSource: null,
-        rating: null,
         createdOn: "2026-11-07",
         pinned: false,
         relatedWorks: [],
@@ -3152,7 +3157,8 @@ export const sampleMedia = [
                 date: "2026-11-07",
                 status: "in_progress",
                 label: null,
-                text: null
+                text: null,
+                rating: null
             }
         ]
     },
