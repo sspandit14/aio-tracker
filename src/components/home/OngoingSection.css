@@ -26,6 +26,11 @@
     object-fit: cover;
 }
 
+.ongoing-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 .ongoing-card h3,
 .ongoing-card p {
     margin: 0;

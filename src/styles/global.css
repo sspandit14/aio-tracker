@@ -13,6 +13,8 @@
 :root {
     --font-editorial: "Renogare", sans-serif;
     --font-ui: "Renogare", sans-serif;
+    --font-body: "Hanken Grotesk", sans-serif;
+    --font-mono: "JetBrains Mono", monospace;
     --text-small: 0.9375rem;
     --text-base: 1rem;
     --text-body: 1.125rem;
@@ -25,6 +27,11 @@
     --color-alt-accent: #A44E41;
     --color-muted: color-mix(in srgb, var(--color-text) 70%, var(--color-background));
     --color-divider: color-mix(in srgb, var(--color-text) 20%, var(--color-background));
+
+    --status-finished: var(--color-accent);
+    --status-completed: #9fd6a4;
+    --status-in_progress: #9cc3e6;
+    --status-dropped: #e39a8d;
 
     /* --color-background: #2E391E;
     --color-surface: #9AB164;

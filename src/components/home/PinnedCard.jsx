@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { getLatestTextLog } from "../../data/sampleMediaSelector";
 
 export default function PinnedCard({media}) {
@@ -5,13 +6,17 @@ export default function PinnedCard({media}) {
 
     return(
         <div className="pinned-card">
-            <img className="pinned-cover"
-                 src={media.cover}
-                 alt={`${media.title} cover`} 
-            />
+            <Link to={`/media/${media.id}`} className="pinned-cover-link">
+                <img className="pinned-cover"
+                    src={media.cover}
+                    alt={`${media.title} cover`} 
+                />
+            </Link>
 
             <div className="pinned-content">
-                <h3>{media.title}</h3>
+                <h3>
+                    <Link to={`/media/${media.id}`} className="pinned-content-link"> {media.title} </Link>
+                </h3>
                 <p>{media.type} | {media.year}</p>
                 {media.rating != null && (
                     <p>Rating: {media.rating}/5</p>

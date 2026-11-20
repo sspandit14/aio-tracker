@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { getCurrentStatus, getLastLoggedOn } from "../../data/sampleMediaSelector";
 
 export default function RecentEntry({media}) {
@@ -5,10 +6,12 @@ export default function RecentEntry({media}) {
         <tr className="recent-entry">
             <td>
                 <div className="recent-media">
-                    <img src={media.cover} alt="" className="recent-cover" />
+                    <Link to={`/media/${media.id}`}>
+                        <img src={media.cover} alt="" className="recent-cover" />
+                    </Link>
 
                     <div>
-                        <b>{media.title}</b>
+                        <Link to={`/media/${media.id}`} className="recent-link"> <b>{media.title}</b> </Link>
                         <small>{media.type}</small>
                     </div>
                 </div>

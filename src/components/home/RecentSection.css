@@ -52,6 +52,11 @@
     flex-shrink: 0;
 }
 
+.recent-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 .recent-media b {
     display: block;
     font-family: var(--font-editorial);

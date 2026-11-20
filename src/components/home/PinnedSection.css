@@ -64,14 +64,23 @@
     color: var(--color-text);
 }
 
+.pinned-cover-link {
+    display: block;
+    justify-self: center;
+    align-self: center;   
+}
+
 .pinned-cover {
     display: block;
     width: min(100%, 220px);
     max-height: 19rem;
     height: auto;
     object-fit: contain;
-    justify-self: center;
-    align-self: center;
+}
+
+.pinned-content-link {
+    color: inherit;
+    text-decoration: none;
 }
 
 .pinned-content {
