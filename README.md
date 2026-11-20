@@ -9,3 +9,4 @@ A site that aims to collate and track media consumption and thoughts across diff
 - [] make pinned/all review text show the entire first sentence
 - [] add hover feedback to links?
 - [] make it "Related Work" or "Works" based on number
+- [] decide on fonts...

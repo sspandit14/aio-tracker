@@ -57,3 +57,9 @@
     color: var(--color-muted);
     font-size: var(--text-body);
 }
+
+@media (max-width: 640px) {
+    .home {
+        gap: 3rem;
+    }
+}

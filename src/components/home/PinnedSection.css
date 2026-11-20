@@ -111,3 +111,24 @@
     overflow: hidden;
     white-space: pre-line;
 }
+
+@media (max-width: 640px) {
+    .pinned-carousel-view {
+        border-radius: 1rem;
+    }
+
+    .pinned-card {
+        grid-template-columns: 1fr;
+        min-height: 0;
+        gap: 1.25rem;
+        padding: 1.25rem;
+    }
+
+    .pinned-cover {
+        width: min(100%, 160px);
+    }
+
+    .pinned-content h3 {
+        font-size: 1.5rem;
+    }
+}

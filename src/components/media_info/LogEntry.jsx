@@ -1,9 +1,14 @@
 import { formatShortDate } from "../../utils/formatDate";
+import { useState } from "react";
 
-export default function LogEntry({ log, verb, speaker }) {
+export default function LogEntry({ log, verb, speaker, is_latest_text}) {
     const paragraphs  = (log.text ?? "").split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
     const colour_class = log.label ? "is-label" : (log.status ? `status-${log.status}` : "");
     const quiet_class = log.text ? "" : "is-quiet";
+
+    const [is_open, setOpen] = useState(false);
+    const collapsible = !is_latest_text && (log.text?.length ?? 0) > 240;
+    const is_clipped = collapsible && !is_open;
 
     const opener = (
         <span className="log-opener">
@@ -25,13 +30,28 @@ export default function LogEntry({ log, verb, speaker }) {
                 {paragraphs.length === 0 ? (
                     <p>{opener}{tags}</p>
                 ) : (
-                    paragraphs.map((text, i) => (
-                        <p key={i}>
-                            {i === 0 && <>{opener} </>}
-                            {text}
-                            {i === paragraphs.length - 1 && tags}
-                        </p>
-                    ))
+                    <>
+                        <div className={`log-text ${is_clipped ? "is-clipped" : ""}`}>
+                            {paragraphs.map((text, i) => (
+                                <p key={i}>
+                                    {i === 0 && <>{opener} </>}
+                                    {text}
+                                    {i === paragraphs.length - 1 && tags}
+                                </p>
+                            ))}
+                        </div>
+
+                        {collapsible && (
+                            <button
+                                type="button"
+                                className="log-toggle"
+                                aria-expanded={is_open}
+                                onClick={() => setOpen(!is_open)}
+                            >
+                                {is_open ? "[CLOSE]" : "[READ MORE]"}
+                            </button>
+                        )}
+                    </>
                 )}
             </div>
         </li>

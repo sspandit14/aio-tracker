@@ -25,6 +25,7 @@ export default function LogTimeline({media}) {
     }
 
     const has_text = sortedEntries.some(row => row.log.text);
+    const latest_text_idx = sortedEntries.findLastIndex(row => row.log.text);
 
     return(
         <div className="log-timeline">
@@ -36,7 +37,7 @@ export default function LogTimeline({media}) {
                         log={row.log}
                         verb={row.verb}
                         speaker={row.speaker}
-                        is
+                        is_latest_text={index === latest_text_idx}
                     />
                 ))}
             </ol>

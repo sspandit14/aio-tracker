@@ -4,10 +4,7 @@
 }
 
 .navbar-content {
-    width: 90%;
-    max-width: 1280px;
-    margin-inline: auto;
-    padding-block: 1.25rem;
+    padding: 1.25rem var(--page-gutter);
 
     display: flex;
     align-items: center;

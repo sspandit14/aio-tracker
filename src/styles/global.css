@@ -18,20 +18,22 @@
     --text-small: 0.9375rem;
     --text-base: 1rem;
     --text-body: 1.125rem;
+    --page-gutter: clamp(1.25rem, 3.5vw, 3rem);
 
-    --color-background: #171E18;
-    --color-surface: #263426;
-    --color-alt-surface: #2A3351;
-    --color-text: #FEFFE4;
-    --color-accent: #DBDD97;
+    --color-background: #151C17;
+    --color-surface: #243225;
+    --color-alt-surface: #213B38;
+    --color-text: #F2F1DC;
+    --color-accent: #D6D894;
     --color-alt-accent: #A44E41;
     --color-muted: color-mix(in srgb, var(--color-text) 70%, var(--color-background));
     --color-divider: color-mix(in srgb, var(--color-text) 20%, var(--color-background));
 
     --status-finished: var(--color-accent);
-    --status-completed: #9fd6a4;
-    --status-in_progress: #9cc3e6;
-    --status-dropped: #e39a8d;
+    --status-completed: #A6CF9C;
+    --status-in_progress: #9DBCC6;
+    --status-dropped: #D9917F;
+    --status-label: #D6B98C;
 
     /* --color-background: #2E391E;
     --color-surface: #9AB164;

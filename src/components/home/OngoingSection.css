@@ -55,3 +55,17 @@
     overflow: hidden;
     background-color: var(--color-alt-surface);
 }
+
+@media (max-width: 640px) {
+    .ongoing-gallery {
+        gap: 1rem;
+    }
+
+    .ongoing-card {
+        flex-basis: calc(50% - 0.5rem);
+    }
+
+    .ongoing-card h3 {
+        font-size: 1.05rem;
+    }
+}

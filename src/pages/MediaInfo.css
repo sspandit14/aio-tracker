@@ -34,10 +34,7 @@
 }
 
 .media-topbar-content {
-    width: 90%;
-    max-width: 1280px;
-    margin-inline: auto;
-    padding-block: 0.75rem;
+    padding: 0.75rem var(--page-gutter);
 }
 
 .media-topbar button {
@@ -81,7 +78,7 @@
 
 .media-info {
     min-width: 0;
-    padding: 2.25rem clamp(1.25rem, 3.5vw, 3rem) 4rem;
+    padding: 2.25rem var(--page-gutter) 4rem;
 }
 
 .media-details {
@@ -175,12 +172,10 @@
     border: 0;
     border-top: 1px solid var(--color-divider);
     margin: 2rem 0 0;
-    max-width: 70ch;
 }
 
 .log-timeline {
     margin-top: 2.5rem;
-    max-width: 70ch;
 }
 
 .log-list { 
@@ -200,7 +195,7 @@
 .log-row.status-finished    { --dot: var(--status-finished); }
 .log-row.status-completed   { --dot: var(--status-completed); }
 .log-row.status-dropped     { --dot: var(--status-dropped); }
-.log-row.is-label           { --dot: #d6b98c; }
+.log-row.is-label           { --dot: var(--status-label); }
 
 .log-date {
     padding-top: 0.2rem;
@@ -251,7 +246,61 @@
     white-space: nowrap;
 }
 
+.log-text.is-clipped {
+    max-height: calc(3 * 1.65 * 1.05rem);
+    overflow: hidden;
+    mask-image: linear-gradient(to bottom, #000 40%, transparent);
+}
+
+.log-toggle {
+    margin-top: 0.5rem;
+    padding: 0;
+    background: none;
+    border: 0;
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    letter-spacing: 0.08em;
+    color: var(--dot);
+    cursor: pointer;
+}
+
+.log-toggle:hover { text-decoration: underline; text-underline-offset: 3px; }
+
 .log-row.is-quiet .log-body { padding-bottom: 1.1rem; }
 .log-row.is-quiet .log-body p { color: var(--color-muted); }
 
 .log-empty { color: var(--color-muted); font-style: italic; }
+
+@media (max-width: 900px) {
+    .media-body {
+        grid-template-columns: 1fr;
+    }
+
+    .media-art {
+        position: static;
+        height: min(55vh, 28rem);
+    }
+
+    .media-info {
+        padding-top: 1.75rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .log-row {
+        grid-template-columns: 1fr;
+    }
+
+    .log-date {
+        text-align: left;
+        padding: 0 0 0.35rem 1.25rem;
+        border-left: 1px solid var(--color-divider);
+    }
+
+    .log-row:last-child .log-date { border-left-color: transparent; }
+
+    .log-body p { font-size: 1rem; }
+    .log-text.is-clipped { max-height: calc(3 * 1.65 * 1rem); }
+
+    .related-works { padding: 1rem 1.1rem; }
+}
